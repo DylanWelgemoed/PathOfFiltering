@@ -1,12 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Filter, Rule } from '../../types/types';
+import { Filter, Rule, RuleColor } from '../../types/types';
 import FilterEditorDescriptionEdit from '../filter-editor-description-edit/filter-editor-description-edit';
 import FilterEditorRuleEdit from '../filter-editor-rule-edit/filter-editor-rule-edit';
+import SettingsDialog from '../settings-dialog/settings-dialog';
 import {
   IoAddOutline,
   IoClose,
   IoInformationCircleOutline,
   IoReorderThreeOutline,
+  IoSettingsOutline,
 } from 'react-icons/io5';
 
 interface FilterListProps {
@@ -44,6 +46,7 @@ const FilterList: React.FC<FilterListProps> = ({
   );
   const [isNewRule, setIsNewRule] = useState(false);
   const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const selectedFilter = filters[selectedFilterIndex];
   const editorRef = useRef<HTMLDivElement>(null);
 
@@ -107,16 +110,50 @@ const FilterList: React.FC<FilterListProps> = ({
   const getRuleColorClass = (rule: Rule) => {
     if (rule.action === 'Recolor') {
       switch (rule.color) {
-        case '#00FF00':
-          return 'text-green-500';
-        case '#0000FF':
-          return 'text-blue-500';
-        case '#FF00FF':
-          return 'text-purple-500';
-        case '#FFFF00':
-          return 'text-yellow-500';
-        case '#FF0000':
-          return 'text-red-500';
+        case RuleColor.Green:
+          return 'text-poe-green';
+        case RuleColor.Blue:
+          return 'text-poe-blue';
+        case RuleColor.Purple:
+          return 'text-poe-purple';
+        case RuleColor.Yellow:
+          return 'text-poe-yellow';
+        case RuleColor.Red:
+          return 'text-poe-red';
+        case RuleColor.Brown:
+          return 'text-poe-brown';
+        case RuleColor.Grey:
+          return 'text-poe-grey';
+        case RuleColor.White:
+          return 'text-poe-white';
+        case RuleColor.Cyan:
+          return 'text-poe-cyan';
+        case RuleColor.Orange:
+          return 'text-poe-orange';
+        case RuleColor.Pink:
+          return 'text-poe-pink';
+        case RuleColor.RedSolid:
+          return 'text-poe-red';
+        case RuleColor.GreenSolid:
+          return 'text-poe-green';
+        case RuleColor.BlueSolid:
+          return 'text-poe-blue';
+        case RuleColor.PurpleSolid:
+          return 'text-poe-purple';
+        case RuleColor.YellowSolid:
+          return 'text-poe-yellow';
+        case RuleColor.BrownSolid:
+          return 'text-poe-brown';
+        case RuleColor.GreySolid:
+          return 'text-poe-grey';
+        case RuleColor.WhiteSolid:
+          return 'text-poe-white';
+        case RuleColor.CyanSolid:
+          return 'text-poe-cyan';
+        case RuleColor.OrangeSolid:
+          return 'text-poe-orange';
+        case RuleColor.PinkSolid:
+          return 'text-poe-pink';
         default:
           return '';
       }
@@ -153,9 +190,17 @@ const FilterList: React.FC<FilterListProps> = ({
   return (
     <div className="flex flex-row m-4 gap-2" ref={editorRef}>
       <div className="relative bg-onyx-500 p-5 shadow-lg w-[600px] h-[850px] flex flex-col">
-        <h1 className="text-center py-1 mb-5 text-2xl tracking-wider bg-onyx-400">
-          LOOT FILTER
-        </h1>
+        <div className="flex justify-between items-center mb-5">
+          <h1 className="text-center py-1 text-2xl tracking-wider bg-onyx-400">
+            LOOT FILTER
+          </h1>
+          <button
+            onClick={() => setIsSettingsOpen(true)}
+            className="button-secondary-icon flex items-center justify-center"
+          >
+            <IoSettingsOutline size={20} />
+          </button>
+        </div>
 
         <div className="flex flex-col flex-grow">
           <div className="mb-4">
@@ -302,6 +347,10 @@ const FilterList: React.FC<FilterListProps> = ({
           isNewRule={isNewRule}
         />
       )}
+      <SettingsDialog
+        isOpen={isSettingsOpen}
+        onClose={() => setIsSettingsOpen(false)}
+      />
     </div>
   );
 };

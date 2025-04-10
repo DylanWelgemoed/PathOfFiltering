@@ -18,8 +18,7 @@ export default function App() {
   const [filters, setFilters] = useState(createInitialFilters());
   const [selectedFilterIndex, setSelectedFilterIndex] = useState(0);
 
-  useEffect(() => {
-    // Request filters from main process
+  const loadFilters = () => {
     window.electron.ipcRenderer.once('ipc-import-filters', (arg: any) => {
       if (arg.success) {
         if (arg.filters && arg.filters.length > 0) {
@@ -35,6 +34,20 @@ export default function App() {
       }
     });
     window.electron.ipcRenderer.sendMessage('ipc-import-filters');
+  };
+
+  useEffect(() => {
+    // Initial load of filters
+    loadFilters();
+
+    // Listen for directory changes
+    const removeListener = window.electron.ipcRenderer.on('loot-filter-dir-changed', () => {
+      loadFilters();
+    });
+
+    return () => {
+      removeListener();
+    };
   }, []);
 
   const handleSelectFilter = (index: number) => {

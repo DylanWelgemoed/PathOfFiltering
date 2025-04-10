@@ -3,12 +3,29 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { windowManager } from './main';
 
-const filterDir = `F:\\Documents\\My Games\\Path of Exile 2`;
+let lootFilterDir = `F:\\Documents\\My Games\\Path of Exile 2`;
 
 export const setupIpcHandlers = () => {
+  ipcMain.handle('get-loot-filter-dir', async () => {
+    return { success: true, path: lootFilterDir };
+  });
+
+  ipcMain.handle('set-loot-filter-dir', async (_, newPath: string) => {
+    try {
+      lootFilterDir = newPath;
+      // Notify all windows that the directory has changed
+      windowManager?.getWindows().forEach(window => {
+        window.webContents.send('loot-filter-dir-changed', newPath);
+      });
+      return { success: true };
+    } catch (error: any) {
+      return { success: false, error: error.message };
+    }
+  });
+
   ipcMain.on('ipc-export-filter', async (event, filterData: { name: string, filter: string }) => {
     try {
-      const filterPath = `${filterDir}\\${filterData.name.replace(' ', '_')}.filter`;
+      const filterPath = `${lootFilterDir}\\${filterData.name.replace(' ', '_')}.filter`;
       fs.writeFileSync(filterPath, filterData.filter);
       event.reply('ipc-export-filter', { success: true });
     } catch (error: any) {
@@ -19,11 +36,11 @@ export const setupIpcHandlers = () => {
 
   ipcMain.on('ipc-import-filters', async (event) => {
     try {
-      const files = fs.readdirSync(filterDir);
+      const files = fs.readdirSync(lootFilterDir);
       const filterFiles = files
         .filter(file => file.endsWith('.filter'))
         .map(file => {
-          const filePath = path.join(filterDir, file);
+          const filePath = path.join(lootFilterDir, file);
           const contents = fs.readFileSync(filePath, 'utf-8');
           return {
             name: file,

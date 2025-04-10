@@ -13,6 +13,10 @@ export class WindowManager {
     this.mainWindow = mainWindow;
   }
 
+  getWindows(): BrowserWindow[] {
+    return [this.mainWindow].filter((window): window is BrowserWindow => window !== null);
+  }
+
   private async findGameWindowWindows(title: string): Promise<number | null> {
     try {
       const { stdout } = await execAsync(`powershell -Command "(Get-Process | Where-Object { $_.MainWindowTitle -like '*${title}*' }).MainWindowHandle"`);

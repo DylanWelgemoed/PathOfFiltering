@@ -6,12 +6,28 @@ export interface Filter {
 }
 
 export enum RuleColor {
-  NORMAL = '#FFFFFF',
-  GREEN = '#00FF00',
-  BLUE = '#0000FF',
-  PURPLE = '#FF00FF',
-  YELLOW = '#FFFF00',
-  RED = '#FF0000',
+  White,
+  Red,
+  Green,
+  Blue,
+  Brown,
+  Yellow,
+  Cyan,
+  Grey,
+  Orange,
+  Pink,
+  Purple,  
+  WhiteSolid,
+  RedSolid,
+  GreenSolid,
+  BlueSolid,
+  BrownSolid,
+  YellowSolid,
+  CyanSolid,
+  GreySolid,
+  OrangeSolid,
+  PinkSolid,
+  PurpleSolid
 } 
 
 export enum MinimapIcon {
@@ -31,7 +47,7 @@ export enum MinimapIcon {
 
 export interface Rule {
   action: 'Show' | 'Hide' | 'Recolor';
-  color?: string;
+  color?: RuleColor;
   isEmphasized: boolean;
   hasMapIcon: boolean;
   mapIcon?: string;

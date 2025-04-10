@@ -1,4 +1,5 @@
 import { Filter, Rule, RuleColor, Condition, ConditionType, ConditionItemType, RarityType, ConditionItemLevel } from '../types/types';
+import { ColorHelper } from '../utils/color-helper';
 
 export class ConditionModel implements Condition {
   type: ConditionType;
@@ -24,7 +25,7 @@ export class ConditionModel implements Condition {
 
 export class RuleModel implements Rule {
   action: 'Show' | 'Hide' | 'Recolor';
-  color?: string;
+  color?: RuleColor;
   isEmphasized: boolean;
   hasMapIcon: boolean;
   mapIcon?: string;
@@ -36,7 +37,7 @@ export class RuleModel implements Rule {
   constructor(
     action: 'Show' | 'Hide' | 'Recolor', 
     name: string, 
-    color?: string,
+    color?: RuleColor,
     isEmphasized: boolean = false,
     hasMapIcon: boolean = false,
     mapIcon?: string,
@@ -55,7 +56,7 @@ export class RuleModel implements Rule {
     this.conditions = conditions;
   }
 
-  setColor(color: string): void {
+  setColor(color: RuleColor): void {
     if (this.action === 'Recolor') {
       this.color = color;
     }
@@ -65,7 +66,7 @@ export class RuleModel implements Rule {
     this.action = action;
     // If changing to recolor and no color is set, use the default color
     if (action === 'Recolor' && !this.color) {
-      this.color = RuleColor.GREEN;
+      this.color = RuleColor.White;
     }
   }
 
@@ -92,60 +93,6 @@ export class RuleModel implements Rule {
     if (index >= 0 && index < this.conditions.length) {
       this.conditions[index] = new ConditionModel(type, rarities, itemLevel, itemTypes);
     }
-  }
-
-  getTextColor(): string {
-    switch (this.color) {
-      case 'Red':
-        return '255 0 0 255';
-      case 'Green':
-        return '0 255 0 255';
-      case 'Blue':
-        return '0 0 255 255';
-      case 'Yellow':
-        return '255 255 0 255';
-      case 'Purple':
-        return '128 0 128 255';
-      case 'Orange':
-        return '255 165 0 255';
-      case 'Pink':
-        return '255 192 203 255';
-      case 'Brown':
-        return '139 69 19 255';
-      case 'Gray':
-        return '128 128 128 255';
-    }
-
-    return '0 0 0 255';
-  }
-
-  getBorderColor(): string {
-    return this.getTextColor();
-  }
-
-  getBackgroundColor(): string {
-    switch (this.color) {
-      case 'Red':
-        return '255 0 0 255';
-      case 'Green':
-        return '0 255 0 255';
-      case 'Blue':
-        return '0 0 255 255';
-      case 'Yellow':
-        return '255 255 0 255';
-      case 'Purple':
-        return '128 0 128 255';
-      case 'Orange':
-        return '255 165 0 255';
-      case 'Pink':
-        return '255 192 203 255';
-      case 'Brown':
-        return '139 69 19 255';
-      case 'Gray':
-        return '128 128 128 255';
-    }
-
-    return '0 0 0 255';
   }
 
   clone(): RuleModel {
@@ -214,7 +161,7 @@ export class RuleModel implements Rule {
         let isEmphasized = false;
         let hasMapIcon = false;
         let mapIcon = '';
-        let color = '';
+        let color: RuleColor = RuleColor.White;
 
         if (action === 'Recolor') {
           // Extract color information from the rule block
@@ -245,25 +192,7 @@ export class RuleModel implements Rule {
           }
           
           // Determine the color based on the extracted values
-          if (textColor.includes('255 0 0')) {
-            color = 'Red';
-          } else if (textColor.includes('0 255 0')) {
-            color = 'Green';
-          } else if (textColor.includes('0 0 255')) {
-            color = 'Blue';
-          } else if (textColor.includes('255 255 0')) {
-            color = 'Yellow';
-          } else if (textColor.includes('128 0 128') || textColor.includes('255 0 255')) {
-            color = 'Purple';
-          } else if (textColor.includes('255 165 0')) {
-            color = 'Orange';
-          } else if (textColor.includes('255 192 203')) {
-            color = 'Pink';
-          } else if (textColor.includes('139 69 19')) {
-            color = 'Brown';
-          } else if (textColor.includes('128 128 128')) {
-            color = 'Gray';
-          }
+          color = ColorHelper.getRuleColor(textColor, backgroundColor);
         }
 
         // Get Area Level Dependency
@@ -318,19 +247,19 @@ export class RuleModel implements Rule {
     string += `${this.action  === 'Recolor' ? "Show" : this.action} \n`;
 
     if (this.action === 'Recolor') {
-      string += `\tSetTextColor ${this.getTextColor()} \n`;
-      string += `\tSetBorderColor ${this.getBorderColor()} \n`;
-      string += `\tSetBackgroundColor ${this.getBackgroundColor()} \n`;
+      string += `\tSetTextColor ${ColorHelper.getTextColor(this.color as RuleColor)} \n`;
+      string += `\tSetBorderColor ${ColorHelper.getBorderColor(this.color as RuleColor)} \n`;
+      string += `\tSetBackgroundColor ${ColorHelper.getBackgroundColor(this.color as RuleColor)} \n`;
     }
 
     if (this.isEmphasized) {
-      string += `\tSetFontSize 32 \n`;
+      string += `\tSetFontSize 36 \n`;
     } else {
-      string += `\tSetFontSize 24 \n`;
+      string += `\tSetFontSize 30 \n`;
     }
 
     if (this.hasMapIcon) {
-      string += `\tMinimapIcon 1 ${this.color} ${this.mapIcon} \n`;
+      string += `\tMinimapIcon 1 ${ColorHelper.getRuleColorName(this.color as RuleColor)} ${this.mapIcon} \n`;
     }
 
     if (this.hasAreaLevelDependency) {

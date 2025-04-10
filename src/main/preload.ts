@@ -2,7 +2,7 @@
 /* eslint no-unused-vars: off */
 import { contextBridge, ipcRenderer, IpcRendererEvent } from 'electron';
 
-export type Channels = 'ipc-example' | 'ipc-export-filters' | 'ipc-import-filters' | 'attach-to-game' | 'hide-and-focus-game';
+export type Channels = 'ipc-export-filters' | 'ipc-import-filters' | 'attach-to-game' | 'hide-and-focus-game' | 'get-loot-filter-dir' | 'set-loot-filter-dir' | 'loot-filter-dir-changed' | 'ipc-export-filter';
 
 const electronHandler = {
   ipcRenderer: {
