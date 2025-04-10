@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Filter, Rule } from '../../types/types';
 import FilterEditorDescriptionEdit from '../filter-editor-description-edit/filter-editor-description-edit';
 import FilterEditorRuleEdit from '../filter-editor-rule-edit/filter-editor-rule-edit';
@@ -43,7 +43,22 @@ const FilterList: React.FC<FilterListProps> = ({
     null,
   );
   const [isNewRule, setIsNewRule] = useState(false);
+  const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
   const selectedFilter = filters[selectedFilterIndex];
+  const editorRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (editorRef.current && !editorRef.current.contains(event.target as Node)) {
+        window.electron.ipcRenderer.invoke('hide-and-focus-game');
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   const handleEdit = () => {
     setIsEditing(true);
@@ -107,8 +122,34 @@ const FilterList: React.FC<FilterListProps> = ({
     return '';
   };
 
+  const handleDragStart = (index: number) => {
+    setDraggedIndex(index);
+  };
+
+  const handleDragOver = (e: React.DragEvent<HTMLDivElement>, index: number) => {
+    e.preventDefault();
+    if (draggedIndex === null || draggedIndex === index) return;
+    
+    const items = Array.from(e.currentTarget.parentElement?.children || []);
+    const dragItem = items[draggedIndex];
+    const dropItem = items[index];
+    
+    if (draggedIndex < index) {
+      dropItem.parentNode?.insertBefore(dragItem, dropItem.nextSibling);
+    } else {
+      dropItem.parentNode?.insertBefore(dragItem, dropItem);
+    }
+  };
+
+  const handleDrop = (e: React.DragEvent<HTMLDivElement>, index: number) => {
+    e.preventDefault();
+    if (draggedIndex === null || draggedIndex === index) return;
+    onDragRule(draggedIndex, index);
+    setDraggedIndex(null);
+  };
+
   return (
-    <div className="flex flex-row m-4 gap-2">
+    <div className="flex flex-row m-4 gap-2" ref={editorRef}>
       <div className="relative bg-onyx-500 p-5 shadow-lg w-[600px] h-[850px] flex flex-col">
         <h1 className="text-center py-1 mb-5 text-2xl tracking-wider bg-onyx-400">
           LOOT FILTER
@@ -188,6 +229,10 @@ const FilterList: React.FC<FilterListProps> = ({
                       key={index}
                       className="flex items-center p-2 border-b border-onyx-300 last:border-b-0 hover:bg-onyx-500 cursor-pointer"
                       onClick={() => handleRuleClick(index)}
+                      draggable
+                      onDragStart={() => handleDragStart(index)}
+                      onDragOver={(e) => handleDragOver(e, index)}
+                      onDrop={(e) => handleDrop(e, index)}
                     >
                       <div className="mr-4 cursor-grab text-white text-base">
                         <IoReorderThreeOutline size={20} />

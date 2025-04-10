@@ -12,6 +12,15 @@ export const setupHotkeys = (window: BrowserWindow) => {
         mainWindow.hide();
       } else {
         mainWindow.show();
+        mainWindow.focus();
+        mainWindow.setAlwaysOnTop(true);
+        // Set a timeout to remove always on top after a short delay
+        // This ensures the window comes to front but doesn't stay on top permanently
+        setTimeout(() => {
+          if (mainWindow) {
+            mainWindow.setAlwaysOnTop(false);
+          }
+        }, 100);
       }
     }
   });

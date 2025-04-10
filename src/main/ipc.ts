@@ -50,4 +50,16 @@ export const setupIpcHandlers = () => {
       return { success: false, error: error instanceof Error ? error.message : 'Unknown error' };
     }
   });
+
+  ipcMain.handle('hide-and-focus-game', async () => {
+    try {
+      if (windowManager) {
+        await windowManager.hideAndFocusGame();
+        return { success: true };
+      }
+      return { success: false, error: 'Window manager not initialized' };
+    } catch (error) {
+      return { success: false, error: error instanceof Error ? error.message : 'Unknown error' };
+    }
+  });
 };

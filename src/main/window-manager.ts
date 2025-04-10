@@ -131,4 +131,17 @@ export class WindowManager {
       this.updateInterval = null;
     }
   }
+
+  async hideAndFocusGame() {
+    if (this.mainWindow) {
+      this.mainWindow.hide();
+    }
+    
+    if (this.gameWindowHandle) {
+      if (process.platform === 'win32') {
+        const { exec } = require('child_process');
+        await exec(`powershell -Command "(Get-Process -Id ${this.gameWindowHandle}).MainWindowHandle | ForEach-Object { [System.Windows.Forms.SendKeys]::SendWait('%{TAB}') }"`);
+      }
+    }
+  }
 } 
