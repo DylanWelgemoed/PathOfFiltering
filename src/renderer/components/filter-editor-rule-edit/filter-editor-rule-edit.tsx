@@ -11,6 +11,7 @@ import {
 import { IoClose, IoAddOutline } from 'react-icons/io5';
 import MultiSelect from '../foundation/multi-select/multi-select';
 import ItemTypeSelector from '../filter-editor-rule-edit-itemType-selector/filter-editor-rule-edit-itemType-selector';
+import ColorPicker from '../filter-editor-rule-edit-color-picker/filter-editor-rule-edit-color-picker';
 
 interface FilterEditorRuleEditProps {
   rule?: Rule;
@@ -352,17 +353,15 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
               <label className="block text-sm font-medium mb-1 text-white">
                 COLOR
               </label>
-              <select
-                value={editedRule.color}
-                onChange={handleColorChange}
-                className="w-full bg-onyx-400 text-white border border-onyx-300 p-2 rounded"
-              >
-                {Object.entries(RuleColor).map(([name, value]) => (
-                  <option key={value} value={value}>
-                    {name}
-                  </option>
-                ))}
-              </select>
+              <ColorPicker
+                value={editedRule.color || RuleColor.NORMAL}
+                onChange={(color) => {
+                  setEditedRule((prev) => ({
+                    ...prev,
+                    color,
+                  }));
+                }}
+              />
             </div>
           )}
 

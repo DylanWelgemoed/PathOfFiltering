@@ -378,7 +378,7 @@ export class FilterModel implements Filter {
   }
 
   addRule(rule: Rule): void {
-    this.rules.push(rule);
+    this.rules.unshift(rule);
     this.updateLastEdited();
   }
 

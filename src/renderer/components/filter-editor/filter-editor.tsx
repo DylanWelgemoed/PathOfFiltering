@@ -87,13 +87,15 @@ const FilterList: React.FC<FilterListProps> = ({
 
   const handleAddRule = () => {
     onAddRule();
-    setSelectedRuleIndex(selectedFilter?.rules.length || 0);
+    setSelectedRuleIndex(0);
     setIsNewRule(true);
   };
 
   const handleSaveRule = (rule: Rule) => {
     if (selectedRuleIndex !== null) {
       onUpdateRule(selectedRuleIndex, rule);
+      setSelectedRuleIndex(null);
+      setIsNewRule(false);
     }
   };
 
