@@ -191,7 +191,7 @@ const FilterList: React.FC<FilterListProps> = ({
     <div className="flex flex-row m-4 gap-2" ref={editorRef}>
       <div className="relative bg-onyx-500 p-5 shadow-lg w-[600px] h-[850px] flex flex-col">
         <div className="flex justify-between items-center mb-5">
-          <h1 className="text-center py-1 text-2xl tracking-wider bg-onyx-400">
+          <h1 className="text-center py-1 text-2xl tracking-wider w-full">
             LOOT FILTER
           </h1>
           <button
