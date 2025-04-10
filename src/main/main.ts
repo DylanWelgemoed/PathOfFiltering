@@ -15,6 +15,8 @@ import log from 'electron-log';
 import { resolveHtmlPath } from './util';
 import { AppTray } from './app-tray';
 import { setupIpcHandlers } from './ipc';
+import { setupHotkeys, unregisterHotkeys } from './hotkeys';
+import { WindowManager } from './window-manager';
 
 class AppUpdater {
   constructor() {
@@ -26,6 +28,7 @@ class AppUpdater {
 
 let mainWindow: BrowserWindow | null = null;
 let tray: AppTray | null = null;
+export let windowManager: WindowManager | null = null;
 
 setupIpcHandlers();
 
@@ -90,21 +93,27 @@ const createWindow = async () => {
     },
   });
 
+  // Initialize window manager
+  windowManager = new WindowManager(mainWindow);
+
   mainWindow.loadURL(resolveHtmlPath('index.html'));
 
   mainWindow.on('ready-to-show', () => {
     if (!mainWindow) {
       throw new Error('"mainWindow" is not defined');
     }
-    if (process.env.START_MINIMIZED) {
-      mainWindow.minimize();
-    } else {
-      mainWindow.show();
-    }
+    // Set up hotkeys after window is ready
+    setupHotkeys(mainWindow);
+    // Window will start hidden
   });
 
   mainWindow.on('closed', () => {
+    unregisterHotkeys();
+    if (windowManager) {
+      windowManager.stopWindowSync();
+    }
     mainWindow = null;
+    windowManager = null;
   });
 
   // Open urls in the user's browser

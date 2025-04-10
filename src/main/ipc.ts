@@ -1,6 +1,7 @@
 import { ipcMain } from 'electron';
 import * as fs from 'fs';
 import * as path from 'path';
+import { windowManager } from './main';
 
 const filterDir = `F:\\Documents\\My Games\\Path of Exile 2`;
 
@@ -35,6 +36,18 @@ export const setupIpcHandlers = () => {
     } catch (error: any) {
       console.error('Error reading filter directory:', error);
       event.reply('ipc-import-filters', { success: false, error: error.message });
+    }
+  });
+
+  ipcMain.handle('attach-to-game', async (_, gameTitle: string) => {
+    try {
+      if (windowManager) {
+        await windowManager.attachToGameWindow(gameTitle);
+        return { success: true };
+      }
+      return { success: false, error: 'Window manager not initialized' };
+    } catch (error) {
+      return { success: false, error: error instanceof Error ? error.message : 'Unknown error' };
     }
   });
 };
