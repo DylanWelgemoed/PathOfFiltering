@@ -1,0 +1,133 @@
+[
+    {
+      "class": "Amulets",
+      "baseType": "Crimson Amulet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "(2–4) Life Regeneration per second"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Azure Amulet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "(20–30)% increased Mana Regeneration Rate"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Amber Amulet",
+      "defenceType": "",
+      "requirements": "Requires: Level 8",
+      "stats": [
+        "+(10–15) to Strength"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Jade Amulet",
+      "defenceType": "",
+      "requirements": "Requires: Level 8",
+      "stats": [
+        "+(10–15) to Dexterity"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Lapis Amulet",
+      "defenceType": "",
+      "requirements": "Requires: Level 8",
+      "stats": [
+        "+(10–15) to Intelligence"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Lunar Amulet",
+      "defenceType": "",
+      "requirements": "Requires: Level 14",
+      "stats": [
+        "+(20–30) to maximum Energy Shield"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Bloodstone Amulet",
+      "defenceType": "",
+      "requirements": "Requires: Level 18",
+      "stats": [
+        "+(30–40) to maximum Life"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Stellar Amulet",
+      "defenceType": "",
+      "requirements": "Requires: Level 25",
+      "stats": [
+        "+(5–7) to all Attributes"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Solar Amulet",
+      "defenceType": "",
+      "requirements": "Requires: Level 30",
+      "stats": [
+        "+(10–15) to Spirit"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Gold Amulet",
+      "defenceType": "",
+      "requirements": "Requires: Level 35",
+      "stats": [
+        "(12–20)% increased Rarity of Items found"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Dusk Amulet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "+1 Prefix Modifier allowed",
+        "-1 Suffix Modifier allowed"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Gloam Amulet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "-1 Prefix Modifier allowed",
+        "+1 Suffix Modifier allowed"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Penumbra Amulet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "+2 Prefix Modifiers allowed",
+        "-2 Suffix Modifiers allowed"
+      ]
+    },
+    {
+      "class": "Amulets",
+      "baseType": "Tenebrous Amulet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "-2 Prefix Modifiers allowed",
+        "+2 Suffix Modifiers allowed"
+      ]
+    }
+  ]
+  

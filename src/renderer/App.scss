@@ -1,0 +1,227 @@
+@import "tailwindcss";
+
+/* COLORS */
+@theme {
+  --color-primary: #BAA898;
+  --color-secondary: #EEE0CB;
+  --color-success: #839788;
+  --color-error: #92374D;
+  --color-onyx-300: #464A4F;
+  --color-onyx-400: #232427;
+  --color-onyx-500: #323539;
+  --color-onyx-transparent: rgba(35, 36, 39, 0.7);
+}
+
+/* FONTS */
+@font-face {
+  font-family: 'Fontin';
+  src: url('./assets/fonts/Fontin-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fontin';
+  src: url('./assets/fonts/Fontin-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fontin';
+  src: url('./assets/fonts/Fontin-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fontin';
+  src: url('./assets/fonts/Fontin-SmallCaps.ttf') format('truetype');
+  font-weight: normal;
+  font-style: small-caps;
+}
+
+
+/* BODY */
+body {
+  font-family: 'Fontin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-white);
+}
+
+
+/* HEADINGS */
+h1 {
+  font-family: 'Fontin', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2{
+  font-family: 'Fontin', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Fontin', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h4{
+  font-family: 'Fontin', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* PARAGRAPHS */
+p {
+  font-family: 'Fontin', sans-serif;
+  font-size: 12px;
+}
+
+small {
+  font-family: 'Fontin', sans-serif;
+  font-size: 10px;
+  text-transform: none;
+}
+
+strong {
+  font-family: 'Fontin', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+label {
+  font-family: 'Fontin', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* COMPONENTS */
+select {
+  font-family: 'Fontin', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: var(--color-onyx-400);
+  color: var(--color-white);
+  border: 1px solid var(--color-onyx-300);
+  border-radius: 0px;
+  padding: calc(var(--spacing)* 2);
+  line-height: var(--tw-leading, var(--text-base--line-height));
+  --tw-outline-style: none;
+  outline-style: none;
+  height: calc(var(--spacing)* 10);
+  cursor: pointer;
+}
+
+input {
+  font-family: 'Fontin', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: var(--color-onyx-400);
+  color: var(--color-white);
+  border: 1px solid var(--color-onyx-300);
+  border-radius: 0px;
+  padding: calc(var(--spacing)* 2);
+  line-height: var(--tw-leading, var(--text-base--line-height));
+  --tw-outline-style: none;
+  outline-style: none;  
+}
+
+textarea {
+  font-family: 'Fontin', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: var(--color-onyx-400);
+  color: var(--color-white);
+  border: 1px solid var(--color-onyx-300);
+  border-radius: 0px;
+  padding: calc(var(--spacing)* 2);
+  line-height: var(--tw-leading, var(--text-base--line-height));
+  --tw-outline-style: none;
+  outline-style: none;
+}
+
+button {
+  font-family: 'Fontin', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: calc(var(--spacing) * 10);
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: var(--color-green-500);
+  color: var(--color-green-50);
+  border: 1px solid var(--color-green-300);
+  padding: calc(var(--spacing) * 3);
+}
+
+.button-secondary {
+  background-color: var(--color-onyx-400);
+  color: var(--color-white);
+  border: 1px solid var(--color-onyx-300);
+  padding: calc(var(--spacing) * 3);
+}
+
+.button-error {
+  background-color: var(--color-error);
+  color: var(--color-white);
+  border: 1px solid var(--color-error);
+  padding: calc(var(--spacing) * 3);
+}
+
+.button-primary-icon {
+  background-color: var(--color-green-500);
+  color: var(--color-green-50);
+  border: 1px solid var(--color-green-300);
+  width: calc(var(--spacing) * 10);
+  height: calc(var(--spacing) * 10);
+}
+
+.button-secondary-icon {
+  background-color: var(--color-onyx-400);
+  color: var(--color-white);
+  border: 1px solid var(--color-onyx-300);
+  width: calc(var(--spacing) * 10);
+  height: calc(var(--spacing) * 10);
+}
+
+.button-error-icon {
+  background-color: var(--color-error);
+  color: var(--color-white);
+  border: 1px solid var(--color-error);
+  width: calc(var(--spacing) * 10);
+  height: calc(var(--spacing) * 10);
+}
+
+/* SCROLLBARS */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-onyx-400);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-onyx-300);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-onyx-300) var(--color-onyx-400);
+}

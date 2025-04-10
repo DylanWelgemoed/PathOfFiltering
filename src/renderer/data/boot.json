@@ -1,0 +1,795 @@
+[
+    {
+      "class": "Boots",
+      "baseType": "Golden Caligae",
+      "defenceType": "Armour / Evasion / Energy Shield",
+      "requirements": "Requires: Level 12",
+      "stats": [
+        "+(8–16)% to all Elemental Resistances"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Rough Greaves",
+      "defenceType": "Armour",
+      "requirements": "",
+      "stats": [
+        "Armour: 22"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Iron Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 11, 20 Str",
+      "stats": [
+        "Armour: 47"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Bronze Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 16, 29 Str",
+      "stats": [
+        "Armour: 60"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Trimmed Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 27, 47 Str",
+      "stats": [
+        "Armour: 87"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Stone Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 33, 57 Str",
+      "stats": [
+        "Armour: 102"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Reefsteel Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 45, 78 Str",
+      "stats": [
+        "Armour: 132"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Monument Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 52, 89 Str",
+      "stats": [
+        "Armour: 150"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Totemic Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 65, 111 Str",
+      "stats": [
+        "Armour: 182"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Rawhide Boots",
+      "defenceType": "Evasion",
+      "requirements": "",
+      "stats": [
+        "Evasion Rating: 15"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Laced Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 11, 20 Dex",
+      "stats": [
+        "Evasion Rating: 38"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Embossed Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 16, 29 Dex",
+      "stats": [
+        "Evasion Rating: 50"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Steeltoe Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 28, 49 Dex",
+      "stats": [
+        "Evasion Rating: 79"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Lizardscale Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 33, 57 Dex",
+      "stats": [
+        "Evasion Rating: 90"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Flared Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 45, 78 Dex",
+      "stats": [
+        "Evasion Rating: 119"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Leatherplate Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 52, 89 Dex",
+      "stats": [
+        "Evasion Rating: 135"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Embroidered Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 65, 111 Dex",
+      "stats": [
+        "Evasion Rating: 166"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Straw Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "",
+      "stats": [
+        "Energy Shield: 14"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Wrapped Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 11, 20 Int",
+      "stats": [
+        "Energy Shield: 22"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Lattice Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 16, 29 Int",
+      "stats": [
+        "Energy Shield: 25"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Silk Slippers",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 27, 47 Int",
+      "stats": [
+        "Energy Shield: 34"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Feathered Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 33, 57 Int",
+      "stats": [
+        "Energy Shield: 38"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Flax Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 45, 78 Int",
+      "stats": [
+        "Energy Shield: 48"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Studded Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 52, 89 Int",
+      "stats": [
+        "Energy Shield: 53"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Elaborate Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 65, 111 Int",
+      "stats": [
+        "Energy Shield: 63"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Mail Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 6, 8 Str, 8 Dex",
+      "stats": [
+        "Armour: 19",
+        "Evasion Rating: 15"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Braced Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 16, 17 Str, 17 Dex",
+      "stats": [
+        "Armour: 33",
+        "Evasion Rating: 28"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Stacked Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 33, 32 Str, 32 Dex",
+      "stats": [
+        "Armour: 56",
+        "Evasion Rating: 50"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Covered Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 45, 43 Str, 43 Dex",
+      "stats": [
+        "Armour: 73",
+        "Evasion Rating: 65"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Flexile Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 52, 50 Str, 50 Dex",
+      "stats": [
+        "Armour: 82",
+        "Evasion Rating: 74"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Bold Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 65, 61 Str, 61 Dex",
+      "stats": [
+        "Armour: 100",
+        "Evasion Rating: 91"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Padded Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 5, 7 Str, 7 Int",
+      "stats": [
+        "Armour: 18",
+        "Energy Shield: 9"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Secured Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 16, 17 Str, 17 Int",
+      "stats": [
+        "Armour: 33",
+        "Energy Shield: 14"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Pelt Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 33, 32 Str, 32 Int",
+      "stats": [
+        "Armour: 56",
+        "Energy Shield: 21"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Weaver Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 45, 43 Str, 43 Int",
+      "stats": [
+        "Armour: 73",
+        "Energy Shield: 26"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Gilt Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 52, 50 Str, 50 Int",
+      "stats": [
+        "Armour: 82",
+        "Energy Shield: 29"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Pious Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 65, 61 Str, 61 Int",
+      "stats": [
+        "Armour: 100",
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Frayed Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 5, 7 Dex, 7 Int",
+      "stats": [
+        "Evasion Rating: 13",
+        "Energy Shield: 9"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Threaded Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 16, 17 Dex, 17 Int",
+      "stats": [
+        "Evasion Rating: 28",
+        "Energy Shield: 14"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Hunting Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 33, 32 Dex, 32 Int",
+      "stats": [
+        "Evasion Rating: 50",
+        "Energy Shield: 21"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Steelpoint Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 45, 43 Dex, 43 Int",
+      "stats": [
+        "Evasion Rating: 65",
+        "Energy Shield: 26"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Velour Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 52, 50 Dex, 50 Int",
+      "stats": [
+        "Evasion Rating: 74",
+        "Energy Shield: 29"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Bladed Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 61 Dex, 61 Int",
+      "stats": [
+        "Evasion Rating: 91",
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Grand Cuisses",
+      "defenceType": "Armour / Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 43 Str, 43 Dex, 43 Int",
+      "stats": [
+        "Armour: 66",
+        "Evasion Rating: 60",
+        "Energy Shield: 23"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Golden Greaves",
+      "defenceType": "",
+      "requirements": "",
+      "stats": []
+    },
+    {
+      "class": "Boots",
+      "baseType": "Plated Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 45, 78 Str",
+      "stats": [
+        "Armour: 132"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Lionheart Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 51, 88 Str",
+      "stats": [
+        "Armour: 147"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Elegant Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 55, 95 Str",
+      "stats": [
+        "Armour: 157"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Carved Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 59, 101 Str",
+      "stats": [
+        "Armour: 167"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Bound Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 45, 78 Dex",
+      "stats": [
+        "Evasion Rating: 119"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Sleek Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 51, 88 Dex",
+      "stats": [
+        "Evasion Rating: 133"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Studded Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 55, 95 Dex",
+      "stats": [
+        "Evasion Rating: 143"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Serpentscale Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 59, 101 Dex",
+      "stats": [
+        "Evasion Rating: 152"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Laced Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 45, 78 Int",
+      "stats": [
+        "Energy Shield: 48"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Bangled Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 51, 88 Int",
+      "stats": [
+        "Energy Shield: 52"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Elegant Slippers",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 55, 95 Int",
+      "stats": [
+        "Energy Shield: 55"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Dunerunner Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 59, 101 Int",
+      "stats": [
+        "Energy Shield: 58"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Soldiering Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 45, 43 Str, 43 Dex",
+      "stats": [
+        "Armour: 73",
+        "Evasion Rating: 65"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Goldwork Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 51, 49 Str, 49 Dex",
+      "stats": [
+        "Armour: 81",
+        "Evasion Rating: 73"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Bastion Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 59, 56 Str, 56 Dex",
+      "stats": [
+        "Armour: 92",
+        "Evasion Rating: 84"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Adherent Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 45, 43 Str, 43 Int",
+      "stats": [
+        "Armour: 73",
+        "Energy Shield: 26"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Bound Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 51, 49 Str, 49 Int",
+      "stats": [
+        "Armour: 81",
+        "Energy Shield: 29"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Shamanistic Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 59, 56 Str, 56 Int",
+      "stats": [
+        "Armour: 92",
+        "Energy Shield: 32"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Wayfarer Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 45, 43 Dex, 43 Int",
+      "stats": [
+        "Evasion Rating: 65",
+        "Energy Shield: 26"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Silverbuckled Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 51, 49 Dex, 49 Int",
+      "stats": [
+        "Evasion Rating: 73",
+        "Energy Shield: 29"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Treerunner Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 59, 56 Dex, 56 Int",
+      "stats": [
+        "Evasion Rating: 84",
+        "Energy Shield: 32"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Bulwark Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 65, 111 Str",
+      "stats": [
+        "Armour: 182"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Ornate Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 70, 121 Str",
+      "stats": [
+        "Armour: 200"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Vaal Greaves",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 75, 131 Str",
+      "stats": [
+        "Armour: 219"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Cinched Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 65, 111 Dex",
+      "stats": [
+        "Evasion Rating: 166"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Cavalry Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 70, 121 Dex",
+      "stats": [
+        "Evasion Rating: 183"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Dragonscale Boots",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 75, 131 Dex",
+      "stats": [
+        "Evasion Rating: 200"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Bound Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 65, 111 Int",
+      "stats": [
+        "Energy Shield: 63"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Luxurious Slippers",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 70, 121 Int",
+      "stats": [
+        "Energy Shield: 69"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Sandsworn Sandals",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 75, 131 Int",
+      "stats": [
+        "Energy Shield: 75"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Veteran Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 65, 61 Str, 61 Dex",
+      "stats": [
+        "Armour: 100",
+        "Evasion Rating: 91"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Noble Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 70, 66 Str, 66 Dex",
+      "stats": [
+        "Armour: 110",
+        "Evasion Rating: 101"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Fortress Sabatons",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 75, 71 Str, 71 Dex",
+      "stats": [
+        "Armour: 120",
+        "Evasion Rating: 110"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Faithful Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 65, 61 Str, 61 Int",
+      "stats": [
+        "Armour: 100",
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Apostle Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 70, 66 Str, 66 Int",
+      "stats": [
+        "Armour: 110",
+        "Energy Shield: 38"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Warlock Leggings",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 75, 71 Str, 71 Int",
+      "stats": [
+        "Armour: 120",
+        "Energy Shield: 42"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Wanderer Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 61 Dex, 61 Int",
+      "stats": [
+        "Evasion Rating: 91",
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Charmed Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 70, 66 Dex, 66 Int",
+      "stats": [
+        "Evasion Rating: 101",
+        "Energy Shield: 38"
+      ]
+    },
+    {
+      "class": "Boots",
+      "baseType": "Quickslip Shoes",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 75, 71 Dex, 71 Int",
+      "stats": [
+        "Evasion Rating: 110",
+        "Energy Shield: 42"
+      ]
+    }
+  ]
+  

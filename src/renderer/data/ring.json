@@ -1,0 +1,151 @@
+[
+    {
+      "class": "Rings",
+      "baseType": "Iron Ring",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Adds 1 to 4 Physical Damage to Attacks"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Lazuli Ring",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "+(20–30) to maximum Mana"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Ruby Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 8",
+      "stats": [
+        "+(20–30)% to Fire Resistance"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Sapphire Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 12",
+      "stats": [
+        "+(20–30)% to Cold Resistance"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Topaz Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 16",
+      "stats": [
+        "+(20–30)% to Lightning Resistance"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Amethyst Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 20",
+      "stats": [
+        "+(7–13)% to Chaos Resistance"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Emerald Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 26",
+      "stats": [
+        "+(120–160) to Accuracy Rating"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Pearl Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 32",
+      "stats": [
+        "(7–10)% increased Cast Speed"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Prismatic Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 35",
+      "stats": [
+        "+(7–10)% to all Elemental Resistances"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Gold Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 40",
+      "stats": [
+        "(6–15)% increased Rarity of Items found"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Unset Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 44",
+      "stats": [
+        "Grants 1 additional Skill Slot"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Dusk Ring",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "+1 Prefix Modifier allowed",
+        "-1 Suffix Modifier allowed"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Gloam Ring",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "-1 Prefix Modifier allowed",
+        "+1 Suffix Modifier allowed"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Penumbra Ring",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "+2 Prefix Modifiers allowed",
+        "-2 Suffix Modifiers allowed"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Tenebrous Ring",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "-2 Prefix Modifiers allowed",
+        "+2 Suffix Modifiers allowed"
+      ]
+    },
+    {
+      "class": "Rings",
+      "baseType": "Breach Ring",
+      "defenceType": "",
+      "requirements": "Requires: Level 40",
+      "stats": [
+        "Maximum Quality is 40%"
+      ]
+    }
+  ]
+  

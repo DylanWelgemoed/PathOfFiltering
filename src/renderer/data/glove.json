@@ -1,0 +1,795 @@
+[
+    {
+      "class": "Gloves",
+      "baseType": "Golden Bracers",
+      "defenceType": "Armour / Evasion / Energy Shield",
+      "requirements": "Requires: Level 12",
+      "stats": [
+        "+(20–30) to maximum Life"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Stocky Mitts",
+      "defenceType": "Armour",
+      "requirements": "",
+      "stats": [
+        "Armour: 15"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Riveted Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 11, 19 Str",
+      "stats": [
+        "Armour: 31"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Tempered Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 16, 27 Str",
+      "stats": [
+        "Armour: 40"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Bolstered Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 27, 44 Str",
+      "stats": [
+        "Armour: 58"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Moulded Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 33, 53 Str",
+      "stats": [
+        "Armour: 68"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Detailed Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 45, 73 Str",
+      "stats": [
+        "Armour: 88"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Titan Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 52, 83 Str",
+      "stats": [
+        "Armour: 100"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Grand Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 65, 104 Str",
+      "stats": [
+        "Armour: 122"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Suede Bracers",
+      "defenceType": "Evasion",
+      "requirements": "",
+      "stats": [
+        "Evasion Rating: 10"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Firm Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 11, 19 Dex",
+      "stats": [
+        "Evasion Rating: 26"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Bound Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 16, 27 Dex",
+      "stats": [
+        "Evasion Rating: 33"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Sectioned Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 28, 46 Dex",
+      "stats": [
+        "Evasion Rating: 52"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Spined Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 33, 53 Dex",
+      "stats": [
+        "Evasion Rating: 60"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Fine Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 45, 73 Dex",
+      "stats": [
+        "Evasion Rating: 79"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Hardened Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 52, 83 Dex",
+      "stats": [
+        "Evasion Rating: 90"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Engraved Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 65, 104 Dex",
+      "stats": [
+        "Evasion Rating: 111"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Torn Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "",
+      "stats": [
+        "Energy Shield: 9"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Sombre Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 12, 20 Int",
+      "stats": [
+        "Energy Shield: 15"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Stitched Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 16, 27 Int",
+      "stats": [
+        "Energy Shield: 17"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Jewelled Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 26, 43 Int",
+      "stats": [
+        "Energy Shield: 22"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Intricate Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 33, 53 Int",
+      "stats": [
+        "Energy Shield: 26"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Pauascale Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 45, 73 Int",
+      "stats": [
+        "Energy Shield: 32"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Embroidered Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 52, 83 Int",
+      "stats": [
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Adorned Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 65, 104 Int",
+      "stats": [
+        "Energy Shield: 42"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Ringmail Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 6, 7 Str, 7 Dex",
+      "stats": [
+        "Armour: 13",
+        "Evasion Rating: 10"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Layered Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 16, 15 Str, 15 Dex",
+      "stats": [
+        "Armour: 22",
+        "Evasion Rating: 18"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Doubled Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 33, 30 Str, 30 Dex",
+      "stats": [
+        "Armour: 37",
+        "Evasion Rating: 33"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Plate Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 45, 40 Str, 40 Dex",
+      "stats": [
+        "Armour: 48",
+        "Evasion Rating: 44"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Burnished Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 52, 46 Str, 46 Dex",
+      "stats": [
+        "Armour: 55",
+        "Evasion Rating: 50"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Ornate Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 65, 57 Str, 57 Dex",
+      "stats": [
+        "Armour: 67",
+        "Evasion Rating: 61"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Rope Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 5, 6 Str, 6 Int",
+      "stats": [
+        "Armour: 12",
+        "Energy Shield: 6"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Aged Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 16, 15 Str, 15 Int",
+      "stats": [
+        "Armour: 22",
+        "Energy Shield: 9"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Goldcast Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 33, 30 Str, 30 Int",
+      "stats": [
+        "Armour: 37",
+        "Energy Shield: 14"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Diviner Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 45, 40 Str, 40 Int",
+      "stats": [
+        "Armour: 48",
+        "Energy Shield: 17"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Righteous Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 52, 46 Str, 46 Int",
+      "stats": [
+        "Armour: 55",
+        "Energy Shield: 19"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Signet Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 65, 57 Str, 57 Int",
+      "stats": [
+        "Armour: 67",
+        "Energy Shield: 23"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Gauze Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 4, 6 Dex, 6 Int",
+      "stats": [
+        "Evasion Rating: 8",
+        "Energy Shield: 6"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Linen Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 16, 15 Dex, 15 Int",
+      "stats": [
+        "Evasion Rating: 18",
+        "Energy Shield: 9"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Spiral Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 33, 30 Dex, 30 Int",
+      "stats": [
+        "Evasion Rating: 33",
+        "Energy Shield: 14"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Buckled Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 45, 40 Dex, 40 Int",
+      "stats": [
+        "Evasion Rating: 44",
+        "Energy Shield: 17"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Furtive Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 52, 46 Dex, 46 Int",
+      "stats": [
+        "Evasion Rating: 50",
+        "Energy Shield: 19"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Utility Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 57 Dex, 57 Int",
+      "stats": [
+        "Evasion Rating: 61",
+        "Energy Shield: 23"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Grand Manchettes",
+      "defenceType": "Armour / Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 40 Str, 40 Dex, 40 Int",
+      "stats": [
+        "Armour: 44",
+        "Evasion Rating: 40",
+        "Energy Shield: 15"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Golden Bracers",
+      "defenceType": "",
+      "requirements": "",
+      "stats": []
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Plated Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 45, 73 Str",
+      "stats": [
+        "Armour: 88"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Elegant Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 51, 82 Str",
+      "stats": [
+        "Armour: 98"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Ancient Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 55, 88 Str",
+      "stats": [
+        "Armour: 105"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Feathered Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 59, 95 Str",
+      "stats": [
+        "Armour: 111"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Hunting Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 45, 73 Dex",
+      "stats": [
+        "Evasion Rating: 79"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Swift Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 51, 82 Dex",
+      "stats": [
+        "Evasion Rating: 89"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Refined Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 55, 88 Dex",
+      "stats": [
+        "Evasion Rating: 95"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Spiked Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 59, 95 Dex",
+      "stats": [
+        "Evasion Rating: 101"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Ominous Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 45, 73 Int",
+      "stats": [
+        "Energy Shield: 32"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Embroidered Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 51, 82 Int",
+      "stats": [
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Baroque Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 55, 88 Int",
+      "stats": [
+        "Energy Shield: 37"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Gold Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 59, 95 Int",
+      "stats": [
+        "Energy Shield: 39"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Ironmail Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 45, 40 Str, 40 Dex",
+      "stats": [
+        "Armour: 48",
+        "Evasion Rating: 44"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Captain Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 51, 46 Str, 46 Dex",
+      "stats": [
+        "Armour: 54",
+        "Evasion Rating: 49"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Zealot Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 59, 52 Str, 52 Dex",
+      "stats": [
+        "Armour: 61",
+        "Evasion Rating: 56"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Braided Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 45, 40 Str, 40 Int",
+      "stats": [
+        "Armour: 48",
+        "Energy Shield: 17"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Heirloom Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 51, 46 Str, 46 Int",
+      "stats": [
+        "Armour: 54",
+        "Energy Shield: 19"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Ornate Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 59, 52 Str, 52 Int",
+      "stats": [
+        "Armour: 61",
+        "Energy Shield: 21"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Bandage Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 45, 40 Dex, 40 Int",
+      "stats": [
+        "Evasion Rating: 44",
+        "Energy Shield: 17"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Cambric Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 51, 46 Dex, 46 Int",
+      "stats": [
+        "Evasion Rating: 49",
+        "Energy Shield: 19"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Adorned Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 59, 52 Dex, 52 Int",
+      "stats": [
+        "Evasion Rating: 56",
+        "Energy Shield: 21"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Knightly Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 65, 104 Str",
+      "stats": [
+        "Armour: 122"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Ornate Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 70, 113 Str",
+      "stats": [
+        "Armour: 134"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Vaal Mitts",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 75, 122 Str",
+      "stats": [
+        "Armour: 146"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Stalking Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 65, 104 Dex",
+      "stats": [
+        "Evasion Rating: 111"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Grand Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 70, 113 Dex",
+      "stats": [
+        "Evasion Rating: 122"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Barbed Bracers",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 75, 122 Dex",
+      "stats": [
+        "Evasion Rating: 133"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Grim Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 65, 104 Int",
+      "stats": [
+        "Energy Shield: 42"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Opulent Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 70, 113 Int",
+      "stats": [
+        "Energy Shield: 46"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Vaal Gloves",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 75, 122 Int",
+      "stats": [
+        "Energy Shield: 50"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Steelmail Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 65, 57 Str, 57 Dex",
+      "stats": [
+        "Armour: 67",
+        "Evasion Rating: 61"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Commander Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 70, 62 Str, 62 Dex",
+      "stats": [
+        "Armour: 74",
+        "Evasion Rating: 67"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Cultist Gauntlets",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 75, 67 Str, 67 Dex",
+      "stats": [
+        "Armour: 80",
+        "Evasion Rating: 73"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Bound Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 65, 57 Str, 57 Int",
+      "stats": [
+        "Armour: 67",
+        "Energy Shield: 23"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Ancient Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 70, 62 Str, 62 Int",
+      "stats": [
+        "Armour: 74",
+        "Energy Shield: 25"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Gleaming Cuffs",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 75, 67 Str, 67 Int",
+      "stats": [
+        "Armour: 80",
+        "Energy Shield: 28"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "War Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 57 Dex, 57 Int",
+      "stats": [
+        "Evasion Rating: 61",
+        "Energy Shield: 23"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Elegant Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 70, 62 Dex, 62 Int",
+      "stats": [
+        "Evasion Rating: 67",
+        "Energy Shield: 25"
+      ]
+    },
+    {
+      "class": "Gloves",
+      "baseType": "Vaal Wraps",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 75, 67 Dex, 67 Int",
+      "stats": [
+        "Evasion Rating: 73",
+        "Energy Shield: 28"
+      ]
+    }
+  ]
+  

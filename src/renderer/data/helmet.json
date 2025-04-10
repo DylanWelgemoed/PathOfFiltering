@@ -1,0 +1,1032 @@
+[
+    {
+      "class": "Helmets",
+      "baseType": "Golden Wreath",
+      "defenceType": "Armour / Evasion / Energy Shield",
+      "requirements": "Requires: Level 12",
+      "stats": [
+        "+(16–24) to all Attributes"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Golden Visage",
+      "defenceType": "Armour / Evasion / Energy Shield",
+      "requirements": "Requires: Level 12",
+      "stats": [
+        "+(8–16)% to all Elemental Resistances"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Rusted Greathelm",
+      "defenceType": "Armour",
+      "requirements": "",
+      "stats": [
+        "Armour: 29"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Soldier Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 12, 23 Str",
+      "stats": [
+        "Armour: 66"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Wrapped Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 16, 30 Str",
+      "stats": [
+        "Armour: 79"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Spired Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 27, 50 Str",
+      "stats": [
+        "Armour: 116"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Elite Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 33, 61 Str",
+      "stats": [
+        "Armour: 136"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Warrior Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 36, 66 Str",
+      "stats": [
+        "Armour: 146"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Commander Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 45, 83 Str",
+      "stats": [
+        "Armour: 176"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Fierce Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 51, 94 Str",
+      "stats": [
+        "Armour: 196"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Sentinel Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 52, 95 Str",
+      "stats": [
+        "Armour: 200"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Goliath Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 57, 104 Str",
+      "stats": [
+        "Armour: 216"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Guardian Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 65, 118 Str",
+      "stats": [
+        "Armour: 243"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Shabby Hood",
+      "defenceType": "Evasion",
+      "requirements": "",
+      "stats": [
+        "Evasion Rating: 19"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Felt Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 10, 20 Dex",
+      "stats": [
+        "Evasion Rating: 48"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Lace Hood",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 16, 30 Dex",
+      "stats": [
+        "Evasion Rating: 67"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Swathed Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 26, 49 Dex",
+      "stats": [
+        "Evasion Rating: 98"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Hunter Hood",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 33, 61 Dex",
+      "stats": [
+        "Evasion Rating: 121"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Viper Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 38, 70 Dex",
+      "stats": [
+        "Evasion Rating: 136"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Corsair Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 45, 83 Dex",
+      "stats": [
+        "Evasion Rating: 158"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Leatherbound Hood",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 51, 94 Dex",
+      "stats": [
+        "Evasion Rating: 177"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Velvet Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 52, 95 Dex",
+      "stats": [
+        "Evasion Rating: 181"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Covert Hood",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 56, 102 Dex",
+      "stats": [
+        "Evasion Rating: 193"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Armoured Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 65, 118 Dex",
+      "stats": [
+        "Evasion Rating: 222"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Twig Circlet",
+      "defenceType": "Energy Shield",
+      "requirements": "",
+      "stats": [
+        "Energy Shield: 19"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Wicker Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 10, 20 Int",
+      "stats": [
+        "Energy Shield: 28"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Beaded Circlet",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 16, 30 Int",
+      "stats": [
+        "Energy Shield: 34"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Chain Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 26, 49 Int",
+      "stats": [
+        "Energy Shield: 44"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Feathered Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 33, 61 Int",
+      "stats": [
+        "Energy Shield: 51"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Gold Circlet",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 40, 74 Int",
+      "stats": [
+        "Energy Shield: 58"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Coral Circlet",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 45, 83 Int",
+      "stats": [
+        "Energy Shield: 63"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Jade Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 50, 92 Int",
+      "stats": [
+        "Energy Shield: 69"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Noble Circlet",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 52, 95 Int",
+      "stats": [
+        "Energy Shield: 71"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Twilight Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 58, 106 Int",
+      "stats": [
+        "Energy Shield: 77"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Magus Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 65, 118 Int",
+      "stats": [
+        "Energy Shield: 84"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Brimmed Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 5, 7 Str, 7 Dex",
+      "stats": [
+        "Armour: 23",
+        "Evasion Rating: 18"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Guarded Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 11, 13 Str, 13 Dex",
+      "stats": [
+        "Armour: 34",
+        "Evasion Rating: 28"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Visored Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 16, 18 Str, 18 Dex",
+      "stats": [
+        "Armour: 44",
+        "Evasion Rating: 37"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Cowled Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 26, 27 Str, 27 Dex",
+      "stats": [
+        "Armour: 62",
+        "Evasion Rating: 54"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Shielded Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 33, 34 Str, 34 Dex",
+      "stats": [
+        "Armour: 75",
+        "Evasion Rating: 66"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Closed Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 45, 46 Str, 46 Dex",
+      "stats": [
+        "Armour: 97",
+        "Evasion Rating: 87"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Decorated Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 52, 53 Str, 53 Dex",
+      "stats": [
+        "Armour: 110",
+        "Evasion Rating: 99"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Gallant Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 65, 65 Str, 65 Dex",
+      "stats": [
+        "Armour: 134",
+        "Evasion Rating: 122"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Iron Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 5, 7 Str, 7 Int",
+      "stats": [
+        "Armour: 23",
+        "Energy Shield: 12"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Horned Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 10, 12 Str, 12 Int",
+      "stats": [
+        "Armour: 33",
+        "Energy Shield: 15"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Cultist Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 16, 18 Str, 18 Int",
+      "stats": [
+        "Armour: 44",
+        "Energy Shield: 19"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Martyr Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 28, 30 Str, 30 Int",
+      "stats": [
+        "Armour: 66",
+        "Energy Shield: 25"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Heavy Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 33, 34 Str, 34 Int",
+      "stats": [
+        "Armour: 75",
+        "Energy Shield: 28"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Spiritbone Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 45, 46 Str, 46 Int",
+      "stats": [
+        "Armour: 97",
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Lavish Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 52, 53 Str, 53 Dex",
+      "stats": [
+        "Armour: 110",
+        "Energy Shield: 39"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Archon Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 65, 65 Str, 65 Int",
+      "stats": [
+        "Armour: 134",
+        "Energy Shield: 46"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Hewn Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 5, 7 Dex, 7 Int",
+      "stats": [
+        "Evasion Rating: 18",
+        "Energy Shield: 12"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Face Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 10, 12 Dex, 12 Int",
+      "stats": [
+        "Evasion Rating: 26",
+        "Energy Shield: 15"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Hooded Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 16, 18 Dex, 18 Int",
+      "stats": [
+        "Evasion Rating: 37",
+        "Energy Shield: 19"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Veiled Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 28, 30 Dex, 30 Int",
+      "stats": [
+        "Evasion Rating: 58",
+        "Energy Shield: 25"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Tribal Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 33, 34 Dex, 34 Int",
+      "stats": [
+        "Evasion Rating: 66",
+        "Energy Shield: 28"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Solid Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 45, 46 Dex, 46 Int",
+      "stats": [
+        "Evasion Rating: 87",
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Shaded Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 52, 53 Dex, 53 Int",
+      "stats": [
+        "Evasion Rating: 99",
+        "Energy Shield: 39"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Death Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 65 Dex, 65 Int",
+      "stats": [
+        "Evasion Rating: 122",
+        "Energy Shield: 46"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Grand Visage",
+      "defenceType": "Armour / Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 46 Str, 46 Dex, 46 Int",
+      "stats": [
+        "Armour: 88",
+        "Evasion Rating: 80",
+        "Energy Shield: 30"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Golden Visage",
+      "defenceType": "",
+      "requirements": "",
+      "stats": []
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Corroded Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 45, 83 Str",
+      "stats": [
+        "Armour: 176"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Mercenary Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 48, 88 Str",
+      "stats": [
+        "Armour: 186"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Homeguard Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 51, 94 Str",
+      "stats": [
+        "Armour: 196"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Elegant Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 55, 101 Str",
+      "stats": [
+        "Armour: 210"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Noble Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 59, 108 Str",
+      "stats": [
+        "Armour: 223"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Rotted Hood",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 45, 83 Dex",
+      "stats": [
+        "Evasion Rating: 158"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Wool Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 48, 88 Dex",
+      "stats": [
+        "Evasion Rating: 168"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Narrow Hood",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 51, 94 Dex",
+      "stats": [
+        "Evasion Rating: 177"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Wrapped Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 55, 101 Dex",
+      "stats": [
+        "Evasion Rating: 190"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Deerstalker Hood",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 59, 108 Dex",
+      "stats": [
+        "Evasion Rating: 203"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Druidic Circlet",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 45, 83 Int",
+      "stats": [
+        "Energy Shield: 63"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Avian Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 48, 88 Int",
+      "stats": [
+        "Energy Shield: 67"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Desert Circlet",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 51, 94 Int",
+      "stats": [
+        "Energy Shield: 70"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Sandsworn Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 55, 101 Int",
+      "stats": [
+        "Energy Shield: 74"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Jungle Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 59, 108 Int",
+      "stats": [
+        "Energy Shield: 78"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Domed Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 45, 46 Str, 46 Dex",
+      "stats": [
+        "Armour: 97",
+        "Evasion Rating: 87"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Engraved Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 48, 49 Str, 49 Dex",
+      "stats": [
+        "Armour: 102",
+        "Evasion Rating: 92"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Soldier Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 51, 52 Str, 52 Dex",
+      "stats": [
+        "Armour: 108",
+        "Evasion Rating: 98"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Cabalist Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 55, 55 Str, 55 Dex",
+      "stats": [
+        "Armour: 115",
+        "Evasion Rating: 105"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Gladiatoral Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 59, 59 Str, 59 Dex",
+      "stats": [
+        "Armour: 123",
+        "Evasion Rating: 111"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Mailed Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 45, 46 Str, 46 Int",
+      "stats": [
+        "Armour: 97",
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Forest Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 48, 49 Str, 49 Int",
+      "stats": [
+        "Armour: 102",
+        "Energy Shield: 37"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Zealot Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 51, 52 Str, 52 Int",
+      "stats": [
+        "Armour: 108",
+        "Energy Shield: 38"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Hallowed Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 55, 55 Str, 55 Int",
+      "stats": [
+        "Armour: 115",
+        "Energy Shield: 41"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Inquisitor Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 59, 59 Str, 59 Int",
+      "stats": [
+        "Armour: 123",
+        "Energy Shield: 43"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Oak Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 45, 46 Dex, 46 Int",
+      "stats": [
+        "Evasion Rating: 87",
+        "Energy Shield: 35"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Bandit Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 48, 49 Dex, 49 Int",
+      "stats": [
+        "Evasion Rating: 92",
+        "Energy Shield: 37"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Skulking Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 51, 52 Dex, 52 Int",
+      "stats": [
+        "Evasion Rating: 98",
+        "Energy Shield: 38"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Pariah Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 55, 55 Dex, 55 Int",
+      "stats": [
+        "Evasion Rating: 105",
+        "Energy Shield: 41"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Avian Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 59, 59 Dex, 59 Int",
+      "stats": [
+        "Evasion Rating: 111",
+        "Energy Shield: 43"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Warmonger Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 65, 118 Str",
+      "stats": [
+        "Armour: 243"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Masked Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 70, 129 Str",
+      "stats": [
+        "Armour: 267"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Paragon Greathelm",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 75, 139 Str",
+      "stats": [
+        "Armour: 292"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Woven Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 65, 118 Dex",
+      "stats": [
+        "Evasion Rating: 222"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Desert Cap",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 70, 129 Dex",
+      "stats": [
+        "Evasion Rating: 244"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Trapper Hood",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 75, 139 Dex",
+      "stats": [
+        "Evasion Rating: 266"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Skycrown Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 65, 118 Int",
+      "stats": [
+        "Energy Shield: 84"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Sorcerous Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 70, 129 Int",
+      "stats": [
+        "Energy Shield: 92"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Kamasan Tiara",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 75, 139 Int",
+      "stats": [
+        "Energy Shield: 101"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Warded Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 65, 65 Str, 65 Dex",
+      "stats": [
+        "Armour: 134",
+        "Evasion Rating: 122"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Cryptic Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 70, 70 Str, 70 Dex",
+      "stats": [
+        "Armour: 147",
+        "Evasion Rating: 134"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Champion Helm",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 75, 76 Str, 76 Dex",
+      "stats": [
+        "Armour: 160",
+        "Evasion Rating: 146"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Druidic Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 65, 65 Str, 65 Int",
+      "stats": [
+        "Armour: 134",
+        "Energy Shield: 46"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Saintly Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 70, 70 Str, 70 Int",
+      "stats": [
+        "Armour: 147",
+        "Energy Shield: 51"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Divine Crown",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 75, 76 Str, 76 Int",
+      "stats": [
+        "Armour: 160",
+        "Energy Shield: 55"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Brigand Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 65 Dex, 65 Int",
+      "stats": [
+        "Evasion Rating: 122",
+        "Energy Shield: 46"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Faridun Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 70, 70 Dex, 70 Int",
+      "stats": [
+        "Evasion Rating: 134",
+        "Energy Shield: 51"
+      ]
+    },
+    {
+      "class": "Helmets",
+      "baseType": "Soaring Mask",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 75, 76 Dex, 76 Int",
+      "stats": [
+        "Evasion Rating: 146",
+        "Energy Shield: 55"
+      ]
+    }
+  ]
+  

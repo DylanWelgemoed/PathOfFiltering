@@ -1,0 +1,122 @@
+[
+    {
+      "class": "Belts",
+      "baseType": "Golden Obi",
+      "defenceType": "",
+      "requirements": "Requires: Level 12",
+      "stats": [
+        "(20–30)% increased Rarity of Items found"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Rawhide Belt",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Charm Slots: 1",
+        "(20–30)% increased Life Recovery from Flasks"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Linen Belt",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Charm Slots: 1",
+        "(20–30)% increased Mana Recovery from Flasks"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Wide Belt",
+      "defenceType": "",
+      "requirements": "Requires: Level 14",
+      "stats": [
+        "Charm Slots: 1",
+        "(20–30)% increased Flask Charges gained"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Long Belt",
+      "defenceType": "",
+      "requirements": "Requires: Level 20",
+      "stats": [
+        "Charm Slots: 1",
+        "(15–20)% increased Charm Effect Duration"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Plate Belt",
+      "defenceType": "",
+      "requirements": "Requires: Level 25",
+      "stats": [
+        "Charm Slots: 1",
+        "+(100–140) to Armour"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Ornate Belt",
+      "defenceType": "",
+      "requirements": "Requires: Level 31",
+      "stats": [
+        "Charm Slots: 1",
+        "(10–15)% reduced Charm Charges used"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Mail Belt",
+      "defenceType": "",
+      "requirements": "Requires: Level 40",
+      "stats": [
+        "Charm Slots: 1",
+        "(10–15)% reduced Flask Charges used"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Double Belt",
+      "defenceType": "",
+      "requirements": "Requires: Level 44",
+      "stats": [
+        "Charm Slots: 1",
+        "(20–30)% increased Charm Charges gained"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Heavy Belt",
+      "defenceType": "",
+      "requirements": "Requires: Level 50",
+      "stats": [
+        "Charm Slots: 1",
+        "(20–30)% increased Stun Threshold"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Utility Belt",
+      "defenceType": "",
+      "requirements": "Requires: Level 55",
+      "stats": [
+        "Charm Slots: 1",
+        "20% of Flask Recovery applied Instantly"
+      ]
+    },
+    {
+      "class": "Belts",
+      "baseType": "Fine Belt",
+      "defenceType": "",
+      "requirements": "Requires: Level 62",
+      "stats": [
+        "Charm Slots: 1",
+        "Flasks gain 0.17 charges per Second"
+      ]
+    }
+  ]
+  

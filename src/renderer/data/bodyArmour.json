@@ -1,0 +1,1543 @@
+[
+    {
+      "class": "Body Armours",
+      "baseType": "Golden Mantle",
+      "defenceType": "Armour / Evasion / Energy Shield",
+      "requirements": "Requires: Level 20, 8 Str, 8 Dex, 8 Int",
+      "stats": [
+        "Armour: 51",
+        "Evasion Rating: 44",
+        "Energy Shield: 21",
+        "+(15–25)% to all Elemental Resistances"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Rusted Cuirass",
+      "defenceType": "Armour",
+      "requirements": "",
+      "stats": [
+        "Armour: 45",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Fur Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 4, 10 Str",
+      "stats": [
+        "Armour: 60",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Iron Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 11, 24 Str",
+      "stats": [
+        "Armour: 96",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Raider Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 16, 34 Str",
+      "stats": [
+        "Armour: 121",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Maraketh Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 20, 42 Str",
+      "stats": [
+        "Armour: 141",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Steel Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 27, 57 Str",
+      "stats": [
+        "Armour: 177",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Full Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 33, 68 Str",
+      "stats": [
+        "Armour: 208",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Vaal Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 37, 77 Str",
+      "stats": [
+        "Armour: 228",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Juggernaut Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 45, 94 Str",
+      "stats": [
+        "Armour: 269",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Chieftain Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 50, 104 Str",
+      "stats": [
+        "Armour: 294",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Colosseum Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 52, 107 Str",
+      "stats": [
+        "Armour: 304",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Champion Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 58, 120 Str",
+      "stats": [
+        "Armour: 335",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Glorious Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 65, 157 Str",
+      "stats": [
+        "Armour: 534",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Conqueror Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 68, 157 Str",
+      "stats": [
+        "Armour: 445",
+        "Base Movement Speed: -0.05",
+        "(30–40)% increased Stun Threshold"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Abyssal Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 73, 157 Str",
+      "stats": [
+        "Armour: 445",
+        "Base Movement Speed: -0.05",
+        "Regenerate (1.5–2.5)% of maximum Life per second"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Leather Vest",
+      "defenceType": "Evasion",
+      "requirements": "",
+      "stats": [
+        "Evasion Rating: 30",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Quilted Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 4, 10 Dex",
+      "stats": [
+        "Evasion Rating: 44",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Pathfinder Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 11, 24 Dex",
+      "stats": [
+        "Evasion Rating: 78",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Shrouded Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 16, 34 Dex",
+      "stats": [
+        "Evasion Rating: 102",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Rhoahide Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 22, 47 Dex",
+      "stats": [
+        "Evasion Rating: 131",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Studded Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 26, 55 Dex",
+      "stats": [
+        "Evasion Rating: 150",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Scout's Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 33, 68 Dex",
+      "stats": [
+        "Evasion Rating: 184",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Serpentscale Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 36, 75 Dex",
+      "stats": [
+        "Evasion Rating: 198",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Corsair Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 45, 94 Dex",
+      "stats": [
+        "Evasion Rating: 242",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Smuggler Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 48, 99 Dex",
+      "stats": [
+        "Evasion Rating: 256",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Strider Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 52, 107 Dex",
+      "stats": [
+        "Evasion Rating: 275",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Hardleather Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 56, 115 Dex",
+      "stats": [
+        "Evasion Rating: 295",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Exquisite Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 65, 157 Dex",
+      "stats": [
+        "Evasion Rating: 487",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Mail Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 68, 157 Dex",
+      "stats": [
+        "Evasion Rating: 406",
+        "Base Movement Speed: -0.03",
+        "(20–30)% reduced Slowing Potency of Debuffs on You"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Armoured Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 73, 157 Dex",
+      "stats": [
+        "Evasion Rating: 406",
+        "Base Movement Speed: -0.03",
+        "(30–40)% increased Elemental Ailment Threshold"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Tattered Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "",
+      "stats": [
+        "Energy Shield: 28",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Feathered Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 5, 13 Int",
+      "stats": [
+        "Energy Shield: 35",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Hexer's Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 11, 24 Int",
+      "stats": [
+        "Energy Shield: 44",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Bone Raiment",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 16, 34 Int",
+      "stats": [
+        "Energy Shield: 52",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Silk Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 22, 47 Int",
+      "stats": [
+        "Energy Shield: 61",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Keth Raiment",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 28, 59 Int",
+      "stats": [
+        "Energy Shield: 70",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Votive Raiment",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 33, 68 Int",
+      "stats": [
+        "Energy Shield: 78",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Altar Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 40, 83 Int",
+      "stats": [
+        "Energy Shield: 89",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Elementalist Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 45, 94 Int",
+      "stats": [
+        "Energy Shield: 97",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Mystic Raiment",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 47, 97 Int",
+      "stats": [
+        "Energy Shield: 100",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Imperial Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 52, 107 Int",
+      "stats": [
+        "Energy Shield: 108",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Plated Raiment",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 58, 120 Int",
+      "stats": [
+        "Energy Shield: 117",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Havoc Raiment",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 65, 157 Int",
+      "stats": [
+        "Energy Shield: 184",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Enlightened Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 68, 157 Int",
+      "stats": [
+        "Energy Shield: 153",
+        "Base Movement Speed: -0.03",
+        "(40–50)% increased Mana Regeneration Rate"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Arcane Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 73, 157 Int",
+      "stats": [
+        "Energy Shield: 153",
+        "Base Movement Speed: -0.03",
+        "(40–50)% faster start of Energy Shield Recharge"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Chain Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "",
+      "stats": [
+        "Armour: 25",
+        "Evasion Rating: 16",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Rogue Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 11, 14 Str, 14 Dex",
+      "stats": [
+        "Armour: 53",
+        "Evasion Rating: 43",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Vagabond Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 16, 20 Str, 20 Dex",
+      "stats": [
+        "Armour: 67",
+        "Evasion Rating: 56",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Cloaked Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 26, 31 Str, 31 Dex",
+      "stats": [
+        "Armour: 95",
+        "Evasion Rating: 83",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Explorer Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 33, 39 Str, 39 Dex",
+      "stats": [
+        "Armour: 114",
+        "Evasion Rating: 101",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Scale Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 37, 43 Str, 43 Dex",
+      "stats": [
+        "Armour: 125",
+        "Evasion Rating: 112",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Knight Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 45, 51 Str, 51 Dex",
+      "stats": [
+        "Armour: 148",
+        "Evasion Rating: 133",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Ancestral Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 50, 57 Str, 57 Dex",
+      "stats": [
+        "Armour: 162",
+        "Evasion Rating: 146",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Lamellar Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 52, 59 Str, 59 Dex",
+      "stats": [
+        "Armour: 167",
+        "Evasion Rating: 151",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Gladiator Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 58, 66 Str, 66 Dex",
+      "stats": [
+        "Armour: 184",
+        "Evasion Rating: 167",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Heroic Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 65, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 245",
+        "Evasion Rating: 223",
+        "Base Movement Speed: -0.04",
+        "+(60–80) to maximum Life"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Tournament Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 68, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 245",
+        "Evasion Rating: 223",
+        "Base Movement Speed: -0.04",
+        "+(20–25)% to Fire Resistance"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Tournament Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 68, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 245",
+        "Evasion Rating: 223",
+        "Base Movement Speed: -0.04",
+        "+(20–25)% to Cold Resistance"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Tournament Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 68, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 245",
+        "Evasion Rating: 223",
+        "Base Movement Speed: -0.04",
+        "+(20–25)% to Lightning Resistance"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Slayer Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 73, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 294",
+        "Evasion Rating: 268",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Pilgrim Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "",
+      "stats": [
+        "Armour: 25",
+        "Energy Shield: 16",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Pelt Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 10, 14 Str, 14 Int",
+      "stats": [
+        "Armour: 50",
+        "Energy Shield: 23",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Mail Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 16, 20 Str, 20 Int",
+      "stats": [
+        "Armour: 67",
+        "Energy Shield: 28",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Shaman Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 28, 33 Str, 33 Int",
+      "stats": [
+        "Armour: 100",
+        "Energy Shield: 39",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Ironclad Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 33, 39 Str, 39 Int",
+      "stats": [
+        "Armour: 114",
+        "Energy Shield: 43",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Sacrificial Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 36, 41 Str, 41 Int",
+      "stats": [
+        "Armour: 123",
+        "Energy Shield: 46",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Cleric Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 45, 51 Str, 51 Int",
+      "stats": [
+        "Armour: 148",
+        "Energy Shield: 53",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Tideseer Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 51, 59 Str, 59 Int",
+      "stats": [
+        "Armour: 165",
+        "Energy Shield: 58",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Gilded Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 52, 59 Str, 59 Int",
+      "stats": [
+        "Armour: 167",
+        "Energy Shield: 59",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Venerated Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 54, 61 Str, 61 Int",
+      "stats": [
+        "Armour: 173",
+        "Energy Shield: 61",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Revered Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 65, 86 Str, 86 Int",
+      "stats": [
+        "Armour: 245",
+        "Energy Shield: 84",
+        "Base Movement Speed: -0.04",
+        "+1% to all Maximum Elemental Resistances"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Corvus Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 68, 86 Str, 86 Int",
+      "stats": [
+        "Armour: 245",
+        "Energy Shield: 84",
+        "Base Movement Speed: -0.04",
+        "+(20–30) to Spirit"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Zenith Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 73, 86 Str, 86 Int",
+      "stats": [
+        "Armour: 294",
+        "Energy Shield: 101",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Hermit Garb",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "",
+      "stats": [
+        "Evasion Rating: 16",
+        "Energy Shield: 16",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Waxed Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 11, 14 Dex, 14 Int",
+      "stats": [
+        "Evasion Rating: 43",
+        "Energy Shield: 24",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Marabout Garb",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 16, 20 Dex, 20 Int",
+      "stats": [
+        "Evasion Rating: 56",
+        "Energy Shield: 28",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Wayfarer Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 28, 33 Dex, 33 Int",
+      "stats": [
+        "Evasion Rating: 88",
+        "Energy Shield: 39",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Anchorite Garb",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 33, 39 Dex, 39 Int",
+      "stats": [
+        "Evasion Rating: 101",
+        "Energy Shield: 43",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Scalper's Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 39, 45 Dex, 45 Int",
+      "stats": [
+        "Evasion Rating: 117",
+        "Energy Shield: 48",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Scoundrel Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 45, 51 Dex, 51 Int",
+      "stats": [
+        "Evasion Rating: 133",
+        "Energy Shield: 53",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Ascetic Garb",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 51, 59 Dex, 59 Int",
+      "stats": [
+        "Evasion Rating: 149",
+        "Energy Shield: 58",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Clandestine Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 52, 59 Dex, 59 Int",
+      "stats": [
+        "Evasion Rating: 151",
+        "Energy Shield: 59",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Monastic Garb",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 56, 64 Dex, 64 Int",
+      "stats": [
+        "Evasion Rating: 162",
+        "Energy Shield: 63",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Torment Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 86 Dex, 86 Int",
+      "stats": [
+        "Evasion Rating: 268",
+        "Energy Shield: 101",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Devout Garb",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 68, 86 Dex, 86 Int",
+      "stats": [
+        "Evasion Rating: 223",
+        "Energy Shield: 84",
+        "Base Movement Speed: -0.03",
+        "+(7–13)% to Chaos Resistance"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Assassin Garb",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 73, 86 Dex, 86 Int",
+      "stats": [
+        "Evasion Rating: 223",
+        "Energy Shield: 84",
+        "Base Movement Speed: -0.03",
+        "5% increased Movement Speed"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Grand Regalia",
+      "defenceType": "Armour / Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 51 Str, 51 Dex, 51 Int",
+      "stats": [
+        "Armour: 135",
+        "Evasion Rating: 123",
+        "Energy Shield: 46",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Golden Plate",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Barbarian Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 45, 94 Str",
+      "stats": [
+        "Armour: 269",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Rugged Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 48, 99 Str",
+      "stats": [
+        "Armour: 284",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Sandsworn Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 51, 105 Str",
+      "stats": [
+        "Armour: 299",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Elegant Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 55, 113 Str",
+      "stats": [
+        "Armour: 320",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Heavy Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 59, 122 Str",
+      "stats": [
+        "Armour: 340",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Stone Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 62, 128 Str",
+      "stats": [
+        "Armour: 355",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Patchwork Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 45, 94 Dex",
+      "stats": [
+        "Evasion Rating: 242",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Hunting Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 48, 99 Dex",
+      "stats": [
+        "Evasion Rating: 256",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Riding Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 51, 105 Dex",
+      "stats": [
+        "Evasion Rating: 271",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Layered Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 55, 113 Dex",
+      "stats": [
+        "Evasion Rating: 290",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Runner Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 59, 122 Dex",
+      "stats": [
+        "Evasion Rating: 309",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Lizardscale Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 62, 128 Dex",
+      "stats": [
+        "Evasion Rating: 324",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Avian Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 45, 94 Int",
+      "stats": [
+        "Energy Shield: 97",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Cursespeaker's Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 48, 99 Int",
+      "stats": [
+        "Energy Shield: 101",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Luxurious Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 51, 105 Int",
+      "stats": [
+        "Energy Shield: 106",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "River Raiment",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 55, 113 Int",
+      "stats": [
+        "Energy Shield: 112",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Adherent's Raiment",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 59, 122 Int",
+      "stats": [
+        "Energy Shield: 119",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Ceremonial Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 62, 128 Int",
+      "stats": [
+        "Energy Shield: 123",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Ring Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 45, 51 Str, 51 Dex",
+      "stats": [
+        "Armour: 148",
+        "Evasion Rating: 133",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Scoundrel Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 48, 55 Str, 55 Dex",
+      "stats": [
+        "Armour: 156",
+        "Evasion Rating: 141",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Wanderer Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 51, 59 Str, 59 Dex",
+      "stats": [
+        "Armour: 165",
+        "Evasion Rating: 149",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Mantled Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 55, 62 Str, 62 Dex",
+      "stats": [
+        "Armour: 176",
+        "Evasion Rating: 159",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Trailblazer Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 59, 67 Str, 67 Dex",
+      "stats": [
+        "Armour: 187",
+        "Evasion Rating: 170",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Golden Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 62, 70 Str, 70 Dex",
+      "stats": [
+        "Armour: 195",
+        "Evasion Rating: 178",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Templar Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 45, 51 Str, 51 Int",
+      "stats": [
+        "Armour: 148",
+        "Energy Shield: 53",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Bearskin Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 48, 55 Str, 55 Int",
+      "stats": [
+        "Armour: 156",
+        "Energy Shield: 56",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Chain Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 51, 59 Str, 59 Int",
+      "stats": [
+        "Armour: 165",
+        "Energy Shield: 58",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Occultist Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 55, 62 Str, 62 Int",
+      "stats": [
+        "Armour: 176",
+        "Energy Shield: 62",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Plated Vestments",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 59, 67 Str, 67 Int",
+      "stats": [
+        "Armour: 187",
+        "Energy Shield: 65",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Heartcarver Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 62, 70 Str, 70 Int",
+      "stats": [
+        "Armour: 195",
+        "Energy Shield: 68",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Oiled Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 48, 55 Dex, 55 Int",
+      "stats": [
+        "Evasion Rating: 141",
+        "Energy Shield: 56",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Evangelist Garb",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 51, 59 Dex, 59 Int",
+      "stats": [
+        "Evasion Rating: 149",
+        "Energy Shield: 58",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Itinerant Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 55, 62 Dex, 62 Int",
+      "stats": [
+        "Evasion Rating: 159",
+        "Energy Shield: 62",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Hatungo Garb",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 59, 67 Dex, 67 Int",
+      "stats": [
+        "Evasion Rating: 170",
+        "Energy Shield: 65",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Hawker's Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 62, 70 Dex, 70 Int",
+      "stats": [
+        "Evasion Rating: 178",
+        "Energy Shield: 68",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Soldier Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 65, 157 Str",
+      "stats": [
+        "Armour: 534",
+        "Base Movement Speed: -0.05"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Ornate Plate",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 70, 157 Str",
+      "stats": [
+        "Armour: 445",
+        "Base Movement Speed: -0.05",
+        "Regenerate (1.5–2.5)% of maximum Life per second"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Utzaal Cuirass",
+      "defenceType": "Armour",
+      "requirements": "Requires: Level 75, 157 Str",
+      "stats": [
+        "Armour: 445",
+        "Base Movement Speed: -0.05",
+        "(30–40)% increased Stun Threshold"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Swiftstalker Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 65, 157 Dex",
+      "stats": [
+        "Evasion Rating: 406",
+        "Base Movement Speed: -0.03",
+        "(20–30)% reduced Slowing Potency of Debuffs on You"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Slipstrike Vest",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 70, 157 Dex",
+      "stats": [
+        "Evasion Rating: 487",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Wyrmscale Coat",
+      "defenceType": "Evasion",
+      "requirements": "Requires: Level 75, 157 Dex",
+      "stats": [
+        "Evasion Rating: 406",
+        "Base Movement Speed: -0.03",
+        "(30–40)% increased Elemental Ailment Threshold"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Vile Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 65, 157 Int",
+      "stats": [
+        "Energy Shield: 184",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Flowing Raiment",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 70, 157 Int",
+      "stats": [
+        "Energy Shield: 153",
+        "Base Movement Speed: -0.03",
+        "(40–50)% increased Mana Regeneration Rate"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Sacramental Robe",
+      "defenceType": "Energy Shield",
+      "requirements": "Requires: Level 75, 157 Int",
+      "stats": [
+        "Energy Shield: 153",
+        "Base Movement Speed: -0.03",
+        "(40–50)% faster start of Energy Shield Recharge"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Dastard Armour",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 65, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 245",
+        "Evasion Rating: 223",
+        "Base Movement Speed: -0.04",
+        "+(60–80) to maximum Life"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Shrouded Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 70, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 245",
+        "Evasion Rating: 223",
+        "Base Movement Speed: -0.04",
+        "+(20–25)% to Fire Resistance"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Shrouded Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 70, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 245",
+        "Evasion Rating: 223",
+        "Base Movement Speed: -0.04",
+        "+(20–25)% to Cold Resistance"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Shrouded Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 70, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 245",
+        "Evasion Rating: 223",
+        "Base Movement Speed: -0.04",
+        "+(20–25)% to Lightning Resistance"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Death Mail",
+      "defenceType": "Armour / Evasion",
+      "requirements": "Requires: Level 75, 86 Str, 86 Dex",
+      "stats": [
+        "Armour: 294",
+        "Evasion Rating: 268",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Wolfskin Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 65, 86 Str, 86 Int",
+      "stats": [
+        "Armour: 294",
+        "Energy Shield: 101",
+        "Base Movement Speed: -0.04"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Conjurer Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 70, 86 Str, 86 Int",
+      "stats": [
+        "Armour: 245",
+        "Energy Shield: 84",
+        "Base Movement Speed: -0.04",
+        "+(20–30) to Spirit"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Death Mantle",
+      "defenceType": "Armour / Energy Shield",
+      "requirements": "Requires: Level 75, 86 Str, 86 Int",
+      "stats": [
+        "Armour: 245",
+        "Energy Shield: 84",
+        "Base Movement Speed: -0.04",
+        "+1% to all Maximum Elemental Resistances"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Sleek Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 65, 86 Dex, 86 Int",
+      "stats": [
+        "Evasion Rating: 268",
+        "Energy Shield: 101",
+        "Base Movement Speed: -0.03"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Rambler Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 70, 86 Dex, 86 Int",
+      "stats": [
+        "Evasion Rating: 223",
+        "Energy Shield: 84",
+        "Base Movement Speed: -0.03",
+        "+(7–13)% to Chaos Resistance"
+      ]
+    },
+    {
+      "class": "Body Armours",
+      "baseType": "Falconer's Jacket",
+      "defenceType": "Evasion / Energy Shield",
+      "requirements": "Requires: Level 75, 86 Dex, 86 Int",
+      "stats": [
+        "Evasion Rating: 223",
+        "Energy Shield: 84",
+        "Base Movement Speed: -0.03",
+        "5% increased Movement Speed"
+      ]
+    }
+  ]
+  
