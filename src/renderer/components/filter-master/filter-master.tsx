@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import FilterEditor from '../filter-editor/filter-editor';
+import FilterSuccessDialog from '../foundation/filter-success-dialog';
 import { FilterModel, RuleModel } from '../../models/models';
 import { RuleColor, Filter, Rule } from '../../types/types';
 
@@ -17,6 +18,7 @@ const createInitialFilters = () => {
 export default function App() {
   const [filters, setFilters] = useState(createInitialFilters());
   const [selectedFilterIndex, setSelectedFilterIndex] = useState(0);
+  const [showSuccessDialog, setShowSuccessDialog] = useState(false);
 
   const loadFilters = () => {
     window.electron.ipcRenderer.once('ipc-import-filters', (arg: any) => {
@@ -88,9 +90,10 @@ export default function App() {
   const handleExportFilter = (index: number) => {
     console.log('Exporting filter:', filters[index]);
     
-    // calling IPC exposed from preload script
     window.electron.ipcRenderer.once('ipc-export-filter', (response: any) => {
-      // eslint-disable-next-line no-console
+      if (response.success) {
+        setShowSuccessDialog(true);
+      }
       console.log(response);
     });
     window.electron.ipcRenderer.sendMessage('ipc-export-filter', {name: filters[index].name, filter: filters[index].toString()});
@@ -132,20 +135,31 @@ export default function App() {
     setFilters(newFilters);
   };
 
+  const handleCloseMainOverlay = () => {
+    window.electron.ipcRenderer.invoke('hide-and-focus-game');
+  };
+
   return (
-    <FilterEditor
-      filters={filters}
-      selectedFilterIndex={selectedFilterIndex}
-      onSelectFilter={handleSelectFilter}
-      onAddFilter={handleAddFilter}
-      onAddRule={handleAddRule}
-      onDeleteFilter={handleDeleteFilter}
-      onExportFilter={handleExportFilter}
-      onDragRule={handleDragRule}
-      onUpdateFilter={handleUpdateFilter}
-      onDuplicateFilter={handleDuplicateFilter}
-      onDeleteRule={handleDeleteRule}
-      onUpdateRule={handleUpdateRule}
-    />
+    <>
+      <FilterEditor
+        filters={filters}
+        selectedFilterIndex={selectedFilterIndex}
+        onSelectFilter={handleSelectFilter}
+        onAddFilter={handleAddFilter}
+        onAddRule={handleAddRule}
+        onDeleteFilter={handleDeleteFilter}
+        onExportFilter={handleExportFilter}
+        onDragRule={handleDragRule}
+        onUpdateFilter={handleUpdateFilter}
+        onDuplicateFilter={handleDuplicateFilter}
+        onDeleteRule={handleDeleteRule}
+        onUpdateRule={handleUpdateRule}
+      />
+      <FilterSuccessDialog 
+        open={showSuccessDialog}
+        onClose={() => setShowSuccessDialog(false)}
+        onCloseMainOverlay={handleCloseMainOverlay}
+      />
+    </>
   );
 }

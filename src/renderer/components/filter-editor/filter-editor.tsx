@@ -52,7 +52,8 @@ const FilterList: React.FC<FilterListProps> = ({
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (editorRef.current && !editorRef.current.contains(event.target as Node)) {
+      const successDialog = document.querySelector('.filter-success-dialog');
+      if (editorRef.current && !editorRef.current.contains(event.target as Node) && !successDialog?.contains(event.target as Node)) {
         window.electron.ipcRenderer.invoke('hide-and-focus-game');
       }
     };
