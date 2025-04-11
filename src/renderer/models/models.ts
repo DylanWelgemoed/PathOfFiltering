@@ -425,8 +425,6 @@ export class RuleModel implements Rule {
             string += `\tClass == ${condition.itemTypes.filter(itemType => itemType.type === 'class').map(itemType => `"${itemType.value}"`).join(' ')} \n`;
           }
           if (condition.itemTypes.filter(itemType => itemType.type === 'basetype').length > 0) {
-            console.log(condition.itemTypes.filter(itemType => itemType.type === 'basetype').map(itemType => `"${itemType.value}"`).join(' '));
-            console.log(condition.itemTypes.filter(itemType => itemType.type === 'basetype'));
             string += `\tBaseType == ${condition.itemTypes.filter(itemType => itemType.type === 'basetype').map(itemType => `"${itemType.value}"`).join(' ')} \n`;
           }
           break;
