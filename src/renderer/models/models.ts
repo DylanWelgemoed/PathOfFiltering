@@ -301,8 +301,25 @@ export class RuleModel implements Rule {
           }
 
           if (line.includes('Class') || line.includes('BaseType')) {
-            const itemType = line.replace('Class == ', '').replace('BaseType == ', '').trim();
-            itemTypes.push({ type: line.includes('Class') ? 'class' : 'basetype', value: itemType });
+            const itemTypes = line.replace('Class == ', '').replace('BaseType == ', '').trim();
+            // Create an array of item type objects from the string
+            const itemTypeArray: ConditionItemType[] = [];
+            
+            // Handle quoted strings (like "Broadhead Quiver") by matching them properly
+            const regex = /"([^"]+)"|(\S+)/g;
+            let match;
+            
+            while ((match = regex.exec(itemTypes)) !== null) {
+              const value = match[1] || match[2]; // match[1] for quoted strings, match[2] for unquoted
+              itemTypeArray.push({ 
+                type: line.includes('Class') ? 'class' : 'basetype', 
+                value: value.replace(/"/g, '') // Remove any remaining quotes
+              });
+            }
+
+            console.log(itemTypeArray);
+            
+            conditions.push(new ConditionModel('ItemType', [], { type: '=', value: 0 }, itemTypeArray, { type: '=', value: 0 }, { value: false }, { value: false }, { type: '=', value: 0 }, { type: '=', value: 0 }));
           }
 
           if (line.includes('Quality')) {
@@ -405,10 +422,12 @@ export class RuleModel implements Rule {
           break;
         case 'ItemType':
           if (condition.itemTypes.filter(itemType => itemType.type === 'class').length > 0) {
-            string += `\tClass == ${condition.itemTypes.filter(itemType => itemType.type === 'class').map(itemType => `${itemType.value}`).join(' ')} \n`;
+            string += `\tClass == ${condition.itemTypes.filter(itemType => itemType.type === 'class').map(itemType => `"${itemType.value}"`).join(' ')} \n`;
           }
           if (condition.itemTypes.filter(itemType => itemType.type === 'basetype').length > 0) {
-            string += `\tBaseType == ${condition.itemTypes.filter(itemType => itemType.type === 'basetype').map(itemType => `${itemType.value}`).join(' ')} \n`;
+            console.log(condition.itemTypes.filter(itemType => itemType.type === 'basetype').map(itemType => `"${itemType.value}"`).join(' '));
+            console.log(condition.itemTypes.filter(itemType => itemType.type === 'basetype'));
+            string += `\tBaseType == ${condition.itemTypes.filter(itemType => itemType.type === 'basetype').map(itemType => `"${itemType.value}"`).join(' ')} \n`;
           }
           break;
         case 'Quality':
