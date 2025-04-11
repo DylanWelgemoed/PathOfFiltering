@@ -1,0 +1,315 @@
+[
+    {
+        "class": "One Hand Maces",
+        "baseType": "Wooden Club",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Physical Damage: 6-10",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Smithing Hammer",
+        "defenceType": "",
+        "requirements": "Requires: Level 4, 11 Str",
+        "stats": [
+            "Physical Damage: 4.5-7.5",
+            "Fire Damage: 4.5-7.5",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1",
+            "local weapon implicit hidden % base damage is fire [50]"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Slim Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 10, 25 Str",
+        "stats": [
+            "Physical Damage: 11-17",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.55",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Spiked Club",
+        "defenceType": "",
+        "requirements": "Requires: Level 16, 38 Str",
+        "stats": [
+            "Physical Damage: 15-24",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Warpick",
+        "defenceType": "",
+        "requirements": "Requires: Level 22, 52 Str",
+        "stats": [
+            "Physical Damage: 18-24",
+            "Critical Hit Chance: 7%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1",
+            "+(10–15)% to Critical Damage Bonus"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Plated Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 26, 61 Str",
+        "stats": [
+            "Physical Damage: 18-38",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.4",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Brigand Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 33, 76 Str",
+        "stats": [
+            "Physical Damage: 28-38",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Construct Hammer",
+        "defenceType": "",
+        "requirements": "Requires: Level 36, 83 Str",
+        "stats": [
+            "Physical Damage: 31-38",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.4",
+            "Weapon Range: 1.1",
+            "Causes Daze buildup equal to 100% of Damage dealt"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Morning Star",
+        "defenceType": "",
+        "requirements": "Requires: Level 45, 104 Str",
+        "stats": [
+            "Physical Damage: 33-49",
+            "Critical Hit Chance: 6.5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Jade Club",
+        "defenceType": "",
+        "requirements": "Requires: Level 48, 110 Str",
+        "stats": [
+            "Physical Damage: 30-50",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1",
+            "Always Hits"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Lumen Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 52, 119 Str",
+        "stats": [
+            "Physical Damage: 36-60",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Execratus Hammer",
+        "defenceType": "",
+        "requirements": "Requires: Level 55, 126 Str",
+        "stats": [
+            "Physical Damage: 40-60",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Torment Club",
+        "defenceType": "",
+        "requirements": "Requires: Level 65, 148 Str",
+        "stats": [
+            "Physical Damage: 44-73",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Calescent Hammer",
+        "defenceType": "",
+        "requirements": "Requires: Level 45, 104 Str",
+        "stats": [
+            "Physical Damage: 19-32",
+            "Fire Damage: 19-32",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1",
+            "local weapon implicit hidden % base damage is fire [50]"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Flared Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 48, 110 Str",
+        "stats": [
+            "Physical Damage: 33-50",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.55",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Battle Pick",
+        "defenceType": "",
+        "requirements": "Requires: Level 51, 117 Str",
+        "stats": [
+            "Physical Damage: 35-47",
+            "Critical Hit Chance: 7%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1",
+            "+(10–15)% to Critical Damage Bonus"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Marching Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 55, 126 Str",
+        "stats": [
+            "Physical Damage: 34-70",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.4",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Bandit Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 59, 135 Str",
+        "stats": [
+            "Physical Damage: 45-61",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Structured Hammer",
+        "defenceType": "",
+        "requirements": "Requires: Level 62, 142 Str",
+        "stats": [
+            "Physical Damage: 49-60",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.4",
+            "Weapon Range: 1.1",
+            "Causes Daze buildup equal to 100% of Damage dealt"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Flanged Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 67, 174 Str",
+        "stats": [
+            "Physical Damage: 45-67",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.55",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Crown Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 72, 193 Str",
+        "stats": [
+            "Physical Damage: 43-89",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.4",
+            "Weapon Range: 1.1"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Molten Hammer",
+        "defenceType": "",
+        "requirements": "Requires: Level 77, 212 Str",
+        "stats": [
+            "Physical Damage: 30.5-50.5",
+            "Fire Damage: 30.5-50.5",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1",
+            "local weapon implicit hidden % base damage is fire [50]"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Strife Pick",
+        "defenceType": "",
+        "requirements": "Requires: Level 78, 212 Str, 212 Dex",
+        "stats": [
+            "Physical Damage: 49-66",
+            "Critical Hit Chance: 7%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1",
+            "+(10–15)% to Critical Damage Bonus"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Fortified Hammer",
+        "defenceType": "",
+        "requirements": "Requires: Level 79, 212 Str",
+        "stats": [
+            "Physical Damage: 60-73",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.4",
+            "Weapon Range: 1.1",
+            "Causes Daze buildup equal to 100% of Damage dealt"
+        ]
+    },
+    {
+        "class": "One Hand Maces",
+        "baseType": "Marauding Mace",
+        "defenceType": "",
+        "requirements": "Requires: Level 77, 212 Str",
+        "stats": [
+            "Physical Damage: 51-84",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.45",
+            "Weapon Range: 1.1"
+        ]
+    }
+]

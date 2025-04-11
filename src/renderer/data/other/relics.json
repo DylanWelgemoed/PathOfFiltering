@@ -1,0 +1,51 @@
+[
+    {
+        "class": "Relics",
+        "baseType": "Urn Relic",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Relics",
+        "baseType": "Amphora Relic",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Relics",
+        "baseType": "Vase Relic",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Relics",
+        "baseType": "Seal Relic",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Relics",
+        "baseType": "Coffer Relic",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Relics",
+        "baseType": "Tapestry Relic",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Relics",
+        "baseType": "Incense Relic",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    }
+]

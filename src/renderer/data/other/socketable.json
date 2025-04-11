@@ -1,0 +1,783 @@
+[
+    {
+        "class": "Socketable",
+        "baseType": "Desert Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 7 to 11 Fire Damage",
+            "Armour:+12% to Fire Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Glacial Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 6 to 10 Cold Damage",
+            "Armour:+12% to Cold Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Storm Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 1 to 20 Lightning Damage",
+            "Armour:+12% to Lightning Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Iron Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:20% increased Physical Damage",
+            "Armour:20% increased Armour, Evasion and Energy Shield"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Body Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Leeches 2.5% of Physical Damage as Life",
+            "Armour:+30 to maximum Life"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Mind Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Leeches 2% of Physical Damage as Mana",
+            "Armour:+25 to maximum Mana"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Rebirth Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Gain 20 Life per Enemy Killed",
+            "Armour:Regenerate 0.3% of maximum Life per second"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Inspiration Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Gain 16 Mana per Enemy Killed",
+            "Armour:15% increased Mana Regeneration Rate"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Stone Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Causes 25% increased Stun Buildup",
+            "Armour:+40 to Stun Threshold"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Vision Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+80 to Accuracy Rating",
+            "Armour:10% increased Life and Mana Recovery from Flasks"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Desert Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 4 to 6 Fire Damage",
+            "Armour:+10% to Fire Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Glacial Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 3 to 5 Cold Damage",
+            "Armour:+10% to Cold Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Storm Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 1 to 10 Lightning Damage",
+            "Armour:+10% to Lightning Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Iron Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:15% increased Physical Damage",
+            "Armour:15% increased Armour, Evasion and Energy Shield"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Body Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Leeches 2% of Physical Damage as Life",
+            "Armour:+20 to maximum Life"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Mind Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Leeches 1.5% of Physical Damage as Mana",
+            "Armour:+15 to maximum Mana"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Rebirth Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Gain 10 Life per Enemy Killed",
+            "Armour:Regenerate 0.25% of maximum Life per second"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Inspiration Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Gain 8 Mana per Enemy Killed",
+            "Armour:12% increased Mana Regeneration Rate"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Stone Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Causes 20% increased Stun Buildup",
+            "Armour:+30 to Stun Threshold"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Vision Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+50 to Accuracy Rating",
+            "Armour:8% increased Life and Mana Recovery from Flasks"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Desert Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 13 to 16 Fire Damage",
+            "Armour:+14% to Fire Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Glacial Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 9 to 15 Cold Damage",
+            "Armour:+14% to Cold Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Storm Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 1 to 30 Lightning Damage",
+            "Armour:+14% to Lightning Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Iron Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:25% increased Physical Damage",
+            "Armour:25% increased Armour, Evasion and Energy Shield"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Body Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Leeches 3% of Physical Damage as Life",
+            "Armour:+40 to maximum Life"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Mind Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Leeches 2.5% of Physical Damage as Mana",
+            "Armour:+35 to maximum Mana"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Rebirth Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Gain 30 Life per Enemy Killed",
+            "Armour:Regenerate 0.35% of maximum Life per second"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Inspiration Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Gain 24 Mana per Enemy Killed",
+            "Armour:18% increased Mana Regeneration Rate"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Stone Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Causes 30% increased Stun Buildup",
+            "Armour:+50 to Stun Threshold"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Vision Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+110 to Accuracy Rating",
+            "Armour:12% increased Life and Mana Recovery from Flasks"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Robust Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+6 to Strength",
+            "Armour:+6 to Strength"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Robust Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+8 to Strength",
+            "Armour:+8 to Strength"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Robust Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+10 to Strength",
+            "Armour:+10 to Strength"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Adept Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+5 to Dexterity",
+            "Armour:+6 to Dexterity"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Adept Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+8 to Dexterity",
+            "Armour:+8 to Dexterity"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Adept Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+10 to Dexterity",
+            "Armour:+10 to Dexterity"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Resolve Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+6 to Intelligence",
+            "Armour:+6 to Intelligence"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Resolve Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+8 to Intelligence",
+            "Armour:+8 to Intelligence"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Resolve Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+10 to Intelligence",
+            "Armour:+10 to Intelligence"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Lesser Tempered Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 3 to 4 Physical Damage",
+            "Armour:6 to 9 Physical Thorns damage"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Tempered Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 6 to 9 Physical Damage",
+            "Armour:14 to 21 Physical Thorns damage"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Tempered Rune",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Adds 9 to 12 Physical Damage",
+            "Armour:31 to 52 Physical Thorns damage"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Rune of Leadership",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Minions gain 10% of their Physical Damage as Extra Lightning Damage",
+            "Armour:Minions take 10% of Physical Damage as Lightning Damage"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Rune of Tithing",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Meta Skills gain 10% increased Energy",
+            "Armour:1 to 10 Lightning Thorns damage"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Rune of Alacrity",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:8% increased Skill Speed",
+            "Armour:Debuffs on you expire 8% faster"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Greater Rune of Nobility",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Attacks with this Weapon have 10% chance to inflict Lightning Exposure",
+            "Armour:10% reduced effect of Shock on you"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Tacati",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:15% chance to Poison on Hit with this weapon",
+            "Armour:+7% to Chaos Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Opiloti",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:15% chance to cause Bleeding on Hit",
+            "Armour:10% increased Charm Charges gained"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Jiquani",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Recover 2% of maximum Life on Kill",
+            "Armour:2% increased maximum Life"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Zalatl",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Recover 2% of maximum Mana on Kill",
+            "Armour:2% increased maximum Mana"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Citaqualotl",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:30% increased Elemental Damage with Attacks",
+            "Armour:+5% to all Elemental Resistances"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Puhuarte",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:30% increased chance to Ignite",
+            "Armour:+1% to Maximum Fire Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Tzamoto",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:20% increased Freeze Buildup",
+            "Armour:+1% to Maximum Cold Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Xopec",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:30% increased chance to Shock",
+            "Armour:+1% to Maximum Lightning Resistance"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Azcapa",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+15 to Spirit",
+            "Armour:5% increased Quantity of Gold Dropped by Slain Enemies"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Topotante",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Attacks with this Weapon Penetrate 15% Elemental Resistances",
+            "Armour:15% increased Elemental Ailment Threshold"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Quipolatl",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:5% increased Attack Speed",
+            "Armour:10% reduced Slowing Potency of Debuffs on You"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Ticaba",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:+12% to Critical Damage Bonus",
+            "Armour:Hits against you have 10% reduced Critical Damage Bonus"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Atmohua",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Convert 20% of Requirements to Strength",
+            "Armour:Convert 20% of Requirements to Strength"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Cholotl",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Convert 20% of Requirements to Dexterity",
+            "Armour:Convert 20% of Requirements to Dexterity"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Soul Core of Zantipi",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Martial Weapons:Convert 20% of Requirements to Intelligence",
+            "Armour:Convert 20% of Requirements to Intelligence"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Serpent Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Gloves: 5% increased Curse Magnitudes"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Primate Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Helmets: Minions have 12% increased maximum Life"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Owl Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Boots: 5% increased Cooldown Recovery Rate"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Cat Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Boots: Hits against you have 15% reduced Critical Damage Bonus"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Wolf Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Gloves: 10% increased Magnitude of Bleeding you inflict"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Stag Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Helmets: 8% increased Exposure Effect"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Boar Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Gloves: Gain 1 Rage on Melee Hit"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Bear Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Helmets: 8% increased Area of Effect"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Ox Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Boots: 20% increased Presence Area of Effect"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Rabbit Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Body Armours: 8% increased Rarity of Items found"
+        ]
+    },
+    {
+        "class": "Socketable",
+        "baseType": "Fox Talisman",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Body Armours: +2% to Quality of all Skills"
+        ]
+    }
+]

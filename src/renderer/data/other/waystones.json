@@ -1,0 +1,146 @@
+[
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 1)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 65"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 2)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 66"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 3)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 67"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 4)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 68"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 5)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 69"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 6)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 70"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 7)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 71"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 8)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 72"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 9)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 73"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 10)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 74"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 11)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 75"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 12)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 76"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 13)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 77"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 14)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 78"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 15)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 79"
+        ]
+    },
+    {
+        "class": "Waystone",
+        "baseType": "Waystone (Tier 16)",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: 80"
+        ]
+    }
+]

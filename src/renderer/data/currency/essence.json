@@ -1,0 +1,284 @@
+[
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of the Body",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Life modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of the Mind",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Mana modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Enhancement",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Defence modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Torment",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Physical modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Flames",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Fire modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Ice",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Cold modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Electricity",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Lightning modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Ruin",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Chaos modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Battle",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Attack modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Sorcery",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Caster modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Haste",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Speed modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of the Infinite",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Attribute modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of the Body",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Life modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of the Mind",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Mana modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of Enhancement",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Defence modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of Torment",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Physical modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of Flames",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Fire modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of Ice",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Cold modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of Electricity",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Lightning modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of Ruin",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Chaos modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of Battle",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Attack modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of Sorcery",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Caster modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of Haste",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one speed modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Essence of the Infinite",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a Magic item to a Rare item with one Attribute modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Hysteria",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic with one Item Rarity modifier. Can only be used on Helmets, Rings or Amulets."
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Delirium",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic or a Magic item to a Rare item with one random notable passive as a modifier. Can only be used on Body Armour."
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Horror",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic or a Magic item to a Rare item with one guaranteed property. Can only be used on Gloves or Boots.",
+            "100% increased effect of Socketed Runes and Soul Cores"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Essence of Insanity",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Upgrades a normal item to Magic or a Magic item to a Rare item with one guaranteed property. Can only be used on Belts.",
+            "On Corruption, Item gains two Enchantments"
+        ]
+    }
+]

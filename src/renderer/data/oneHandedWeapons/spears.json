@@ -1,0 +1,334 @@
+[
+    {
+        "class": "Spears",
+        "baseType": "Hardwood Spear",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Physical Damage: 5-9",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Ironhead Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 5, 11 Dex",
+        "stats": [
+            "Physical Damage: 7-13",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Hunting Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 10, 10 Str, 20 Dex",
+        "stats": [
+            "Physical Damage: 10-18",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.55",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw",
+            "(15–25)% chance to Maim on Hit"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Winged Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 16, 14 Str, 30 Dex",
+        "stats": [
+            "Physical Damage: 12-22",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.65",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "War Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 21, 17 Str, 39 Dex",
+        "stats": [
+            "Physical Damage: 14-26",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw",
+            "(25–35)% increased Projectile Speed with this Weapon"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Forked Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 26, 20 Str, 48 Dex",
+        "stats": [
+            "Physical Damage: 17-32",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Barbed Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 33, 25 Str, 60 Dex",
+        "stats": [
+            "Physical Damage: 20-38",
+            "Critical Hit Chance: 6.5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Broad Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 40, 29 Str, 72 Dex",
+        "stats": [
+            "Physical Damage: 26-48",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.5",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Crossblade Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 45, 33 Str, 81 Dex",
+        "stats": [
+            "Physical Damage: 28-51",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.55",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Seaglass Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 51, 36 Str, 91 Dex, 65 Int",
+        "stats": [
+            "Physical Damage: 27-50",
+            "Critical Hit Chance: 10%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Sword Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 52, 37 Str, 93 Dex",
+        "stats": [
+            "Physical Damage: 30-56",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Striking Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 55, 39 Str, 98 Dex",
+        "stats": [
+            "Lightning Damage: 23-91",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw",
+            "local weapon implicit hidden % base damage is lightning [100]"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Helix Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 65, 45 Str, 116 Dex",
+        "stats": [
+            "Physical Damage: 37-68",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Steelhead Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 45, 33 Str, 81 Dex",
+        "stats": [
+            "Physical Damage: 27-50",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Coursing Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 48, 35 Str, 86 Dex",
+        "stats": [
+            "Physical Damage: 29-54",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.55",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw",
+            "(15–25)% chance to Maim on Hit"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Swift Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 51, 36 Str, 91 Dex",
+        "stats": [
+            "Physical Damage: 28-53",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw",
+            "(25–35)% increased Projectile Speed with this Weapon"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Branched Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 55, 39 Str, 98 Dex",
+        "stats": [
+            "Physical Damage: 32-59",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Jagged Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 59, 42 Str, 105 Dex",
+        "stats": [
+            "Physical Damage: 33-61",
+            "Critical Hit Chance: 6.5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Massive Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 62, 44 Str, 110 Dex",
+        "stats": [
+            "Physical Damage: 38-70",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.5",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Orichalcum Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 67, 53 Str, 135 Dex",
+        "stats": [
+            "Physical Damage: 38-70",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Pronged Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 72, 59 Str, 150 Dex",
+        "stats": [
+            "Physical Damage: 40-75",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Stalking Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 77, 64 Str, 165 Dex",
+        "stats": [
+            "Physical Damage: 44-82",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.55",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw",
+            "(15–25)% chance to Maim on Hit"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Flying Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 78, 64 Str, 165 Dex",
+        "stats": [
+            "Physical Damage: 41-76",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw",
+            "(25–35)% increased Projectile Speed with this Weapon"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Grand Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 79, 64 Str, 165 Dex",
+        "stats": [
+            "Physical Damage: 46-85",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.5",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    },
+    {
+        "class": "Spears",
+        "baseType": "Spiked Spear",
+        "defenceType": "",
+        "requirements": "Requires: Level 77, 64 Str, 165 Dex",
+        "stats": [
+            "Physical Damage: 41-76",
+            "Critical Hit Chance: 6.5%",
+            "Attacks per Second: 1.6",
+            "Weapon Range: 1.5",
+            "Grants Skill: Spear Throw"
+        ]
+    }
+]

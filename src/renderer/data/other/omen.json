@@ -1,0 +1,191 @@
+[
+    {
+        "class": "Omen",
+        "baseType": "Omen of Refreshment",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory will fully recover your flask and charm charges when you reach Low Life"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Resurgence",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory fully recover your Life, Mana and Energy Shield when you reach Low Life"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Amelioration",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory will prevent 75% of Experience loss when you die"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Whittling",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Chaos Orb will remove the lowest level modifier"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Sinistral Erasure",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Chaos Orb will remove only prefix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Dextral Erasure",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Chaos Orb will remove only suffix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Sinistral Alchemy",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Orb of Alchemy will result in the maximum number of prefix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Dextral Alchemy",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Orb of Alchemy will result in the maximum number of suffix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Sinistral Coronation",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Regal Orb will add only prefix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Dextral Coronation",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Regal Orb will add only suffix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Corruption",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Vaal Orb will be more unpredictable"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Greater Exaltation",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Exalted Orb will add two random modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Sinistral Exaltation",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Exalted Orb will add only prefix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Dextral Exaltation",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Exalted Orb will add only suffix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Greater Annulment",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Orb of Annulment will remove two modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Sinistral Annulment",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Orb of Annulment will remove only prefix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Dextral Annulment",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory your next Orb of Annulment will remove only suffix modifiers"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Answered Prayers",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory the next Shrine you click on will grant an additional Effect"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Secret Compartments",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory the next Strongbox you click on will be reopenable"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of the Hunt",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory the next Possessed monster you kill will release its Azmeri Spirit"
+        ]
+    },
+    {
+        "class": "Omen",
+        "baseType": "Omen of Reinforcements",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "While this item is active in your inventory the next Rogue Exile you encounter will summon an ally"
+        ]
+    }
+]

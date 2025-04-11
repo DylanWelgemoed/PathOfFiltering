@@ -1,0 +1,153 @@
+[
+    {
+      "class": "Sceptres",
+      "baseType": "Rattling Sceptre",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Skeletal Warrior"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Stoic Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 6",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 3 Discipline"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Lupine Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 12",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 4 Skeletal Warrior"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Omen Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 16",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 5 Malice"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Ochre Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 21",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 6 Skeletal Warrior"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Shrine Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 26",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 8 Purity of Fire"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Shrine Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 26",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 8 Purity of Ice"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Shrine Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 26",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 8 Purity of Lightning"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Devouring Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 33",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 9 Skeletal Warrior"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Clasped Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 36",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 10 Skeletal Warrior"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Devotional Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 45",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 11 Skeletal Warrior"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Wrath Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 49",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 12 Skeletal Warrior"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Aromatic Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 52",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 13 Skeletal Warrior"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Pious Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 58",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 14 Skeletal Warrior"
+      ]
+    },
+    {
+      "class": "Sceptres",
+      "baseType": "Hallowed Sceptre",
+      "defenceType": "",
+      "requirements": "Requires: Level 65",
+      "stats": [
+        "Spirit: 100",
+        "Grants Skill: Level 15 Skeletal Warrior"
+      ]
+    }
+  ]
+  

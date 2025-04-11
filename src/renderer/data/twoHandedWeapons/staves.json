@@ -1,0 +1,119 @@
+[
+    {
+        "class": "Staves",
+        "baseType": "Ashen Staff",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Grants Skill: Firebolt"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Gelid Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 2",
+        "stats": [
+            "Grants Skill: Level 1 Freezing Shards"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Voltaic Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 2",
+        "stats": [
+            "Grants Skill: Level 1 Lightning Bolt"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Spriggan Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 11",
+        "stats": [
+            "Grants Skill: Level 4 Firebolt"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Pyrophyte Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 16",
+        "stats": [
+            "Grants Skill: Level 5 Living Bomb"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Chiming Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 25",
+        "stats": [
+            "Grants Skill: Level 7 Sigil of Power"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Rending Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 33",
+        "stats": [
+            "Grants Skill: Level 9 Soulrend"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Reaping Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 38",
+        "stats": [
+            "Grants Skill: Level 10 Reap"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Icicle Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 45",
+        "stats": [
+            "Grants Skill: Level 11 Firebolt"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Roaring Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 49",
+        "stats": [
+            "Grants Skill: Level 12 Unleash"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Paralysing Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 52",
+        "stats": [
+            "Grants Skill: Level 13 Shock Nova"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Cleric Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 56",
+        "stats": [
+            "Grants Skill: Level 13 Consecrate"
+        ]
+    },
+    {
+        "class": "Staves",
+        "baseType": "Dark Staff",
+        "defenceType": "",
+        "requirements": "Requires: Level 65",
+        "stats": [
+            "Grants Skill: Level 15 Dark Pact"
+        ]
+    }
+]

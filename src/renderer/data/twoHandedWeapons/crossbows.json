@@ -1,0 +1,376 @@
+[
+    {
+      "class": "Crossbows",
+      "baseType": "Makeshift Crossbow",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Physical Damage: 7-12",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.8"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Tense Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 4, 8 Str, 8 Dex",
+      "stats": [
+        "Physical Damage: 8-15",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.85",
+        "(20–30)% increased Bolt Speed"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Sturdy Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 10, 15 Str, 15 Dex",
+      "stats": [
+        "Physical Damage: 11-26",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.55",
+        "Reload Time: 0.75"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Varnished Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 16, 22 Str, 22 Dex",
+      "stats": [
+        "Physical Damage: 12-36",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.8"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Dyad Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 20, 27 Str, 27 Dex",
+      "stats": [
+        "Physical Damage: 9-37",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 1.1",
+        "Loads an additional bolt"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Alloy Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 26, 34 Str, 34 Dex",
+      "stats": [
+        "Physical Damage: 12-50",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.7",
+        "Reload Time: 0.7"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Bombard Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 33, 43 Str, 43 Dex",
+      "stats": [
+        "Physical Damage: 14-56",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.65",
+        "Reload Time: 0.75",
+        "Grenade Skills Fire an additional Projectile"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Construct Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 38, 49 Str, 49 Dex",
+      "stats": [
+        "Physical Damage: 18-72",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.8"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Blackfire Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 45, 57 Str, 57 Dex",
+      "stats": [
+        "Physical Damage: 20-80",
+        "Critical Hit Chance: 7%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.85"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Piercing Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 48, 61 Str, 61 Dex",
+      "stats": [
+        "Physical Damage: 20-82",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.65",
+        "Reload Time: 0.85",
+        "(20–30)% chance to Pierce an Enemy"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Cumbrous Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 52, 66 Str, 66 Dex",
+      "stats": [
+        "Physical Damage: 19-76",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.9",
+        "+1 to maximum number of Summoned Ballista Totems"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Dedalian Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 56, 71 Str, 71 Dex",
+      "stats": [
+        "Physical Damage: 25-99",
+        "Critical Hit Chance: 7%",
+        "Attacks per Second: 1.55",
+        "Reload Time: 0.85"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Esoteric Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 65, 81 Str, 81 Dex",
+      "stats": [
+        "Physical Damage: 28-113",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.8"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Taut Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 45, 57 Str, 57 Dex",
+      "stats": [
+        "Physical Damage: 20-79",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.85",
+        "(20–30)% increased Bolt Speed"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Robust Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 48, 61 Str, 61 Dex",
+      "stats": [
+        "Physical Damage: 22-89",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.55",
+        "Reload Time: 0.75"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Painted Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 51, 65 Str, 65 Dex",
+      "stats": [
+        "Physical Damage: 23-92",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.8"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Twin Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 55, 69 Str, 69 Dex",
+      "stats": [
+        "Physical Damage: 21-83",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 1.1",
+        "Loads an additional bolt"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Cannonade Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 59, 74 Str, 74 Dex",
+      "stats": [
+        "Physical Damage: 23-90",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.65",
+        "Reload Time: 0.75",
+        "Grenade Skills Fire an additional Projectile"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Bleak Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 62, 78 Str, 78 Dex",
+      "stats": [
+        "Physical Damage: 27-109",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.8"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Stout Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 67, 95 Str, 95 Dex",
+      "stats": [
+        "Physical Damage: 30-119",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.55",
+        "Reload Time: 0.75"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Engraved Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 72, 106 Str, 106 Dex",
+      "stats": [
+        "Physical Damage: 31-124",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.8"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Flexed Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 77, 116 Str, 116 Dex",
+      "stats": [
+        "Physical Damage: 32-127",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.85",
+        "(20–30)% increased Bolt Speed"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Gemini Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 78, 116 Str, 116 Dex",
+      "stats": [
+        "Physical Damage: 28-112",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 1.1",
+        "Loads an additional bolt"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Siege Crossbow",
+      "defenceType": "",
+      "requirements": "Requires: Level 79, 116 Str, 116 Dex",
+      "stats": [
+        "Physical Damage: 29-115",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.65",
+        "Reload Time: 0.75",
+        "Grenade Skills Fire an additional Projectile"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Bleak Crossbow",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Physical Damage: 27-109",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.8"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Stout Crossbow",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Physical Damage: 30-119",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.55",
+        "Reload Time: 0.75"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Engraved Crossbow",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Physical Damage: 31-124",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.8"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Flexed Crossbow",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Physical Damage: 32-127",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 0.85",
+        "(20–30)% increased Bolt Speed"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Gemini Crossbow",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Physical Damage: 28-112",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.6",
+        "Reload Time: 1.1",
+        "Loads an additional bolt"
+      ]
+    },
+    {
+      "class": "Crossbows",
+      "baseType": "Siege Crossbow",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Physical Damage: 29-115",
+        "Critical Hit Chance: 5%",
+        "Attacks per Second: 1.65",
+        "Reload Time: 0.75"
+      ]
+    }
+  ]
+  

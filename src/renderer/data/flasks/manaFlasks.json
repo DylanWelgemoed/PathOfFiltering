@@ -1,0 +1,101 @@
+[
+    {
+        "class": "Mana Flasks",
+        "baseType": "Lesser Mana Flask",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Recovers 50 Mana over 2 Second",
+            "Consumes 10 of 60 Charges on use",
+            "Currently has 60 Charges"
+        ]
+    },
+    {
+        "class": "Mana Flasks",
+        "baseType": "Medium Mana Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 4",
+        "stats": [
+            "Recovers 70 Mana over 3 Second",
+            "Consumes 10 of 65 Charges on use",
+            "Currently has 65 Charges"
+        ]
+    },
+    {
+        "class": "Mana Flasks",
+        "baseType": "Greater Mana Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 10",
+        "stats": [
+            "Recovers 90 Mana over 2.5 Second",
+            "Consumes 10 of 70 Charges on use",
+            "Currently has 70 Charges"
+        ]
+    },
+    {
+        "class": "Mana Flasks",
+        "baseType": "Grand Mana Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 16",
+        "stats": [
+            "Recovers 110 Mana over 2.5 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Mana Flasks",
+        "baseType": "Giant Mana Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 23",
+        "stats": [
+            "Recovers 165 Mana over 3.5 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Mana Flasks",
+        "baseType": "Colossal Mana Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 30",
+        "stats": [
+            "Recovers 165 Mana over 2.5 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Mana Flasks",
+        "baseType": "Gargantuan Mana Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 40",
+        "stats": [
+            "Recovers 185 Mana over 2 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Mana Flasks",
+        "baseType": "Transcendent Mana Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 50",
+        "stats": [
+            "Recovers 285 Mana over 3.5 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Mana Flasks",
+        "baseType": "Ultimate Mana Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 60",
+        "stats": [
+            "Recovers 310 Mana over 3 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    }
+]

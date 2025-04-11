@@ -1,0 +1,21 @@
+[
+    {
+      "class": "Stackable Currency",
+      "baseType": "Breach Splinter",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Stack Size: 1 / 300"
+      ]
+    },
+    {
+      "class": "Stackable Currency",
+      "baseType": "Simulacrum Splinter",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Stack Size: 1 / 300"
+      ]
+    }
+  ]
+  

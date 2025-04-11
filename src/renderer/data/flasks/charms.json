@@ -1,0 +1,158 @@
+[
+    {
+        "class": "Charms",
+        "baseType": "Thawing Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 12",
+        "stats": [
+            "Lasts 3 Second",
+            "Consumes 80 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "Grants Immunity to Freeze",
+            "Used when you become Frozen"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Staunching Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 18",
+        "stats": [
+            "Lasts 3 Second",
+            "Consumes 60 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "Grants Immunity to Bleeding",
+            "Used when you start Bleeding"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Antidote Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 24",
+        "stats": [
+            "Lasts 3 Second",
+            "Consumes 40 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "Grants Immunity to Poison",
+            "Used when you become Poisoned"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Dousing Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 32",
+        "stats": [
+            "Lasts 3 Second",
+            "Consumes 60 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "Grants Immunity to Ignite",
+            "Used when you become Ignited"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Grounding Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 32",
+        "stats": [
+            "Lasts 3 Second",
+            "Consumes 50 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "Grants Immunity to Shock",
+            "Used when you become Shocked"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Stone Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 8",
+        "stats": [
+            "Lasts 2.5 Second",
+            "Consumes 40 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "Cannot be Stunned",
+            "Used when you become Stunned"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Silver Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 10",
+        "stats": [
+            "Lasts 3 Second",
+            "Consumes 40 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "Your speed is unaffected by Slows",
+            "Used when you are affected by a Slow"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Ruby Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 5",
+        "stats": [
+            "Lasts 4 Second",
+            "Consumes 40 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "+25% to Fire Resistance",
+            "Used when you take Fire damage from a Hit"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Sapphire Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 5",
+        "stats": [
+            "Lasts 4 Second",
+            "Consumes 40 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "+25% to Cold Resistance",
+            "Used when you take Cold damage from a Hit"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Topaz Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 5",
+        "stats": [
+            "Lasts 4 Second",
+            "Consumes 40 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "+25% to Lightning Resistance",
+            "Used when you take Lightning damage from a Hit"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Amethyst Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 40",
+        "stats": [
+            "Lasts 4 Second",
+            "Consumes 60 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "+18% to Chaos Resistance",
+            "Used when you take Chaos damage from a Hit"
+        ]
+    },
+    {
+        "class": "Charms",
+        "baseType": "Golden Charm",
+        "defenceType": "",
+        "requirements": "Requires: Level 50",
+        "stats": [
+            "Lasts 1 Second",
+            "Consumes 80 of 80 Charges on use",
+            "Currently has 80 Charges",
+            "15% increased Rarity of Items found",
+            "Used when you Kill a Rare or Unique Enemy"
+        ]
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "class": "Life Flasks",
+        "baseType": "Lesser Life Flask",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Recovers 50 Life over 3 Second",
+            "Consumes 10 of 60 Charges on use",
+            "Currently has 60 Charges"
+        ]
+    },
+    {
+        "class": "Life Flasks",
+        "baseType": "Medium Life Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 4",
+        "stats": [
+            "Recovers 90 Life over 5 Second",
+            "Consumes 10 of 65 Charges on use",
+            "Currently has 65 Charges"
+        ]
+    },
+    {
+        "class": "Life Flasks",
+        "baseType": "Greater Life Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 10",
+        "stats": [
+            "Recovers 150 Life over 4 Second",
+            "Consumes 10 of 70 Charges on use",
+            "Currently has 70 Charges"
+        ]
+    },
+    {
+        "class": "Life Flasks",
+        "baseType": "Grand Life Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 16",
+        "stats": [
+            "Recovers 260 Life over 5 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Life Flasks",
+        "baseType": "Giant Life Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 23",
+        "stats": [
+            "Recovers 340 Life over 4 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Life Flasks",
+        "baseType": "Colossal Life Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 30",
+        "stats": [
+            "Recovers 450 Life over 4 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Life Flasks",
+        "baseType": "Gargantuan Life Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 40",
+        "stats": [
+            "Recovers 710 Life over 5 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Life Flasks",
+        "baseType": "Transcendent Life Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 50",
+        "stats": [
+            "Recovers 840 Life over 4 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    },
+    {
+        "class": "Life Flasks",
+        "baseType": "Ultimate Life Flask",
+        "defenceType": "",
+        "requirements": "Requires: Level 60",
+        "stats": [
+            "Recovers 920 Life over 3 Second",
+            "Consumes 10 of 75 Charges on use",
+            "Currently has 75 Charges"
+        ]
+    }
+]

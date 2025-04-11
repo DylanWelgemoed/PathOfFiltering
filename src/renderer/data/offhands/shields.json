@@ -1,0 +1,806 @@
+[
+    {
+        "class": "Shields",
+        "baseType": "Golden Flame",
+        "defenceType": "",
+        "requirements": "Requires: Level 15",
+        "stats": [
+            "Block chance: 25%",
+            "+(11–19)% to Chaos Resistance"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Splintered Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 18",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Painted Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 6, 13 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 29",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Braced Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 12, 23 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 41",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Barricade Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 16, 30 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 50",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Effigial Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 21, 40 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 60",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Rampart Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 28, 52 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 75",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Heraldric Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 33, 61 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 85",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Stone Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 36, 66 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 91",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Crucible Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 45, 83 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 110",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Ancestor Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 50, 92 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 121",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Phalanx Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 52, 95 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 125",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Defiant Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 58, 106 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 137",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Blacksteel Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 65, 118 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 152",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Hardwood Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 10",
+            "Evasion Rating: 7",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Pelage Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 8, 10 Str, 10 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 18",
+            "Evasion Rating: 14",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Studded Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 16, 18 Str, 18 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 27",
+            "Evasion Rating: 23",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Crescent Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 26, 27 Str, 27 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 39",
+            "Evasion Rating: 34",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Chiseled Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 33, 34 Str, 34 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 47",
+            "Evasion Rating: 41",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Feathered Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 37, 38 Str, 38 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 51",
+            "Evasion Rating: 46",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Stratified Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 45, 46 Str, 46 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 61",
+            "Evasion Rating: 54",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Carved Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 47, 48 Str, 48 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 63",
+            "Evasion Rating: 57",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Mosaic Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 52, 53 Str, 53 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 69",
+            "Evasion Rating: 62",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Aureate Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 57, 58 Str, 58 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 74",
+            "Evasion Rating: 68",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Grand Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 65, 65 Str, 65 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 84",
+            "Evasion Rating: 76",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Blazon Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 10",
+            "Energy Shield: 6",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Sigil Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 7, 10 Str, 10 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 17",
+            "Energy Shield: 8",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Emblem Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 16, 18 Str, 18 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 27",
+            "Energy Shield: 12",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Jingling Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 28, 30 Str, 30 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 41",
+            "Energy Shield: 16",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Sectarian Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 33, 34 Str, 34 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 47",
+            "Energy Shield: 18",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Omen Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 36, 37 Str, 37 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 50",
+            "Energy Shield: 19",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Wayward Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 45, 46 Str, 46 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 61",
+            "Energy Shield: 22",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Seer Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 49, 50 Str, 50 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 65",
+            "Energy Shield: 23",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Stoic Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 52, 53 Str, 53 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 69",
+            "Energy Shield: 24",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Empyreal Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 57, 58 Str, 58 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 74",
+            "Energy Shield: 26",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Deified Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 65, 65 Str, 65 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 84",
+            "Energy Shield: 29",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Golden Shield",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Block chance: 25%",
+            "Base Movement Speed: -0.03"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Aged Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 45, 83 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 110",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Metalworked Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 48, 88 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 116",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Cultist Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 51, 94 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 123",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Bulwark Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 55, 101 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 131",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Noble Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 59, 108 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 139",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Goldworked Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 61, 112 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 144",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Ironwood Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 45, 46 Str, 46 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 61",
+            "Evasion Rating: 54",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Fur-lined Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 48, 49 Str, 49 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 64",
+            "Evasion Rating: 58",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Mercenary Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 51, 52 Str, 52 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 67",
+            "Evasion Rating: 61",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Polished Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 55, 55 Str, 55 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 72",
+            "Evasion Rating: 65",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Stone Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 59, 59 Str, 59 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 77",
+            "Evasion Rating: 70",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Avian Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 62, 62 Str, 62 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 80",
+            "Evasion Rating: 73",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Painted Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 45, 46 Str, 46 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 61",
+            "Energy Shield: 22",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Engraved Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 48, 49 Str, 49 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 64",
+            "Energy Shield: 23",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Descry Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 51, 52 Str, 52 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 67",
+            "Energy Shield: 24",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Dekharan Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 55, 55 Str, 55 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 72",
+            "Energy Shield: 25",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Quartered Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 59, 59 Str, 59 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 77",
+            "Energy Shield: 27",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Glowering Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 62, 62 Str, 62 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 80",
+            "Energy Shield: 28",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Royal Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 65, 118 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 152",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Fortress Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 70, 129 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 167",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Vaal Tower Shield",
+        "defenceType": "Armour",
+        "requirements": "Requires: Level 75, 139 Str",
+        "stats": [
+            "Block chance: 26%",
+            "Armour: 182",
+            "Base Movement Speed: -0.03",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Mammoth Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 65, 65 Str, 65 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 84",
+            "Evasion Rating: 76",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Baroque Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 70, 70 Str, 70 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 92",
+            "Evasion Rating: 84",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Soaring Targe",
+        "defenceType": "Armour / Evasion",
+        "requirements": "Requires: Level 75, 76 Str, 76 Dex",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 100",
+            "Evasion Rating: 91",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Intricate Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 65, 65 Str, 65 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 84",
+            "Energy Shield: 29",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Sekheman Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 70, 70 Str, 70 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 92",
+            "Energy Shield: 32",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    },
+    {
+        "class": "Shields",
+        "baseType": "Vaal Crest Shield",
+        "defenceType": "Armour / Energy Shield",
+        "requirements": "Requires: Level 75, 76 Str, 76 Int",
+        "stats": [
+            "Block chance: 25%",
+            "Armour: 100",
+            "Energy Shield: 35",
+            "Base Movement Speed: -0.015",
+            "Grants Skill: Raise Shield"
+        ]
+    }
+]

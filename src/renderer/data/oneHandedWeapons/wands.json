@@ -1,0 +1,119 @@
+[
+    {
+        "class": "Wands",
+        "baseType": "Withered Wand",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Grants Skill: Chaos Bolt"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Bone Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 2",
+        "stats": [
+            "Grants Skill: Level 1 Bone Blast"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Attuned Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 2",
+        "stats": [
+            "Grants Skill: Level 1 Mana Drain"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Siphoning Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 11",
+        "stats": [
+            "Grants Skill: Level 4 Power Siphon"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Volatile Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 16",
+        "stats": [
+            "Grants Skill: Level 5 Volatile Dead"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Galvanic Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 25",
+        "stats": [
+            "Grants Skill: Level 7 Galvanic Field"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Acrid Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 33",
+        "stats": [
+            "Grants Skill: Level 9 Decompose"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Offering Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 38",
+        "stats": [
+            "Grants Skill: Level 10 Exsanguinate"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Frigid Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 45",
+        "stats": [
+            "Grants Skill: Level 11 Chaos Bolt"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Torture Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 49",
+        "stats": [
+            "Grants Skill: Level 12 Chaos Bolt"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Critical Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 52",
+        "stats": [
+            "Grants Skill: Level 13 Chaos Bolt"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Primordial Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 56",
+        "stats": [
+            "Grants Skill: Level 13 Wither"
+        ]
+    },
+    {
+        "class": "Wands",
+        "baseType": "Dueling Wand",
+        "defenceType": "",
+        "requirements": "Requires: Level 65",
+        "stats": [
+            "Grants Skill: Level 15 Chaos Bolt"
+        ]
+    }
+]

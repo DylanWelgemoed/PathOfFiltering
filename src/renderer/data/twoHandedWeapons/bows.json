@@ -1,0 +1,287 @@
+[
+    {
+        "class": "Bows",
+        "baseType": "Crude Bow",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Physical Damage: 6-9",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Shortbow",
+        "defenceType": "",
+        "requirements": "Requires: Level 5, 14 Dex",
+        "stats": [
+            "Physical Damage: 7-14",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.25"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Warden Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 11, 27 Dex",
+        "stats": [
+            "Physical Damage: 12-18",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.15",
+            "(20–30)% chance to Chain an additional time"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Recurve Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 16, 38 Dex",
+        "stats": [
+            "Physical Damage: 15-31",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.1"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Composite Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 22, 52 Dex",
+        "stats": [
+            "Physical Damage: 19-31",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Dualstring Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 28, 65 Dex",
+        "stats": [
+            "Physical Damage: 16-31",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.1",
+            "Bow Attacks fire an additional Arrow"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Cultist Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 33, 76 Dex",
+        "stats": [
+            "Chaos Damage: 36-59",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2",
+            "local weapon implicit hidden % base damage is chaos [100]"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Zealot Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 39, 90 Dex",
+        "stats": [
+            "Physical Damage: 31-47",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Artillery Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 45, 104 Dex",
+        "stats": [
+            "Physical Damage: 39-72",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.15",
+            "50% reduced Projectile Range"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Tribal Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 50, 115 Dex",
+        "stats": [
+            "Physical Damage: 38-57",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Greatbow",
+        "defenceType": "",
+        "requirements": "Requires: Level 52, 119 Str, 119 Dex",
+        "stats": [
+            "Physical Damage: 40-82",
+            "Critical Hit Chance: 6.5%",
+            "Attacks per Second: 1.15"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Double Limb Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 56, 128 Dex",
+        "stats": [
+            "Physical Damage: 42-63",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Heavy Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 65, 148 Dex",
+        "stats": [
+            "Physical Damage: 45-75",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Snakewood Shortbow",
+        "defenceType": "",
+        "requirements": "Requires: Level 45, 104 Dex",
+        "stats": [
+            "Physical Damage: 29-54",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.25"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Protector Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 48, 110 Dex",
+        "stats": [
+            "Physical Damage: 35-53",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.15",
+            "(20–30)% chance to Chain an additional time"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Rider Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 51, 117 Dex",
+        "stats": [
+            "Physical Damage: 36-61",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Twin Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 55, 126 Dex",
+        "stats": [
+            "Physical Damage: 29-54",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2",
+            "Bow Attacks fire an additional Arrow"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Adherent Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 59, 135 Dex",
+        "stats": [
+            "Chaos Damage: 41-69",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2",
+            "local weapon implicit hidden % base damage is chaos [100]"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Militant Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 62, 142 Dex",
+        "stats": [
+            "Physical Damage: 46-69",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Ironwood Shortbow",
+        "defenceType": "",
+        "requirements": "Requires: Level 67, 174 Dex",
+        "stats": [
+            "Physical Damage: 41-76",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.25"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Cavalry Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 72, 193 Dex",
+        "stats": [
+            "Physical Damage: 49-82",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Guardian Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 77, 212 Dex",
+        "stats": [
+            "Physical Damage: 53-80",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.15",
+            "(20–30)% chance to Chain an additional time"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Gemini Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 78, 212 Dex",
+        "stats": [
+            "Physical Damage: 39-73",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2",
+            "Bow Attacks fire an additional Arrow"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Fanatic Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 79, 212 Dex",
+        "stats": [
+            "Chaos Damage: 52-87",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2",
+            "local weapon implicit hidden % base damage is chaos [100]"
+        ]
+    },
+    {
+        "class": "Bows",
+        "baseType": "Warmonger Bow",
+        "defenceType": "",
+        "requirements": "Requires: Level 77, 212 Dex",
+        "stats": [
+            "Physical Damage: 56-84",
+            "Critical Hit Chance: 5%",
+            "Attacks per Second: 1.2"
+        ]
+    }
+]

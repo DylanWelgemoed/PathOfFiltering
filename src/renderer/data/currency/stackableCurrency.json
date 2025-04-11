@@ -1,0 +1,421 @@
+[
+    {
+        "class": "Stackable Currency",
+        "baseType": "Blacksmith's Whetstone",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Improves the quality of a martial weapon"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Arcanist's Etcher",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Improves the quality of a wand, staff or sceptre"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Scroll of Wisdom",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 40",
+            "Identifies an item"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Chaos Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Removes a random modifier and augments a Rare item with a new random modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Armourer's Scrap",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Improves the quality of an armour"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Mirror of Kalandra",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Creates a Mirrored copy of an item"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Orb of Alchemy",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Upgrades a Normal item to a Rare item with 4 modifiers"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Orb of Chance",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Unpredictably either upgrades a Normal item to Unique rarity or destroys it"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Orb of Transmutation",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 40",
+            "Upgrades a Normal item to a Magic item with 1 modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Exalted Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Augments a Rare item with a new random modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Regal Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Upgrades a Magic item to a Rare item, adding 1 modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Orb of Augmentation",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 30",
+            "Augments a Magic item with a new random modifier"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Glassblower's Bauble",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Improves the quality of a flask"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Gemcutter's Prism",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Improves the quality of a skill gem"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Lesser Jeweller's Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Sets a Skill Gem to have 3 Support Gem Sockets"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Greater Jeweller's Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Sets a Skill Gem to have 4 Support Gem Sockets"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Perfect Jeweller's Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Sets a Skill Gem to have 5 Support Gem Sockets"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Artificer's Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Adds a Rune Socket to a Martial Weapon, wand, staff or Armour"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Divine Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Randomises the numeric values of modifiers on an item"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Transmutation Shard",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Alchemy Shard",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Chance Shard",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Albino Rhoa Feather",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Golden Vulture Feather",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Rainbow Toucan Feather",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Jade Kiwi Feather",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Stygian Peacock Feather",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Vaal Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Modifies an item unpredictably and Corrupts it"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Orb of Annulment",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Removes a random modifier from an item"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Fracturing Orb",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20",
+            "Fracture a random modifier on a rare item with at least 4 modifiers, locking it in place."
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Regal Shard",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Artificer's Shard",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Exotic Coinage",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Broken Circle Artifact",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Black Scythe Artifact",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Order Artifact",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Sun Artifact",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 20"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Gold",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10000",
+            "Can be spent at Vendors."
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Bronze Key",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Used to open Bronze Caches within the Trials"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Silver Key",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Used to open Silver Caches within the Trials"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Gold Key",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Used to open Gold Caches within the Trials"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Bronze Key",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Used to open Bronze Caches within the Trials"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Silver Key",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Used to open Silver Caches within the Trials"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Gold Key",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Used to open Gold Caches within the Trials"
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "class": "Trial Coins",
+        "baseType": "Djinn Barya",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Trial Coins",
+        "baseType": "Test of Strength Barya",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Trial Coins",
+        "baseType": "Test of Will Barya",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Trial Coins",
+        "baseType": "Test of Cunning Barya",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Trial Coins",
+        "baseType": "Test of Time Barya",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    }
+]

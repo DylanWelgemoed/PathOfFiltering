@@ -1,0 +1,57 @@
+[
+    {
+      "class": "Tablet",
+      "baseType": "Breach Precursor Tablet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "(12–18) Maps in Range contain Breaches"
+      ]
+    },
+    {
+      "class": "Tablet",
+      "baseType": "Expedition Precursor Tablet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "(12–18) Maps in Range contain Expedition Encounters"
+      ]
+    },
+    {
+      "class": "Tablet",
+      "baseType": "Delirium Precursor Tablet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "(12–18) Maps in Range contain Mirrors of Delirium"
+      ]
+    },
+    {
+      "class": "Tablet",
+      "baseType": "Ritual Precursor Tablet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "(12–18) Maps in Range contain Ritual Altars"
+      ]
+    },
+    {
+      "class": "Tablet",
+      "baseType": "Precursor Tablet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "(12–18) Maps in Range are Irradiated"
+      ]
+    },
+    {
+      "class": "Tablet",
+      "baseType": "Overseer Precursor Tablet",
+      "defenceType": "",
+      "requirements": "",
+      "stats": [
+        "Up to (2–4) Maps in Range contain Bosses"
+      ]
+    }
+  ]
+  

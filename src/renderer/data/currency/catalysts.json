@@ -1,0 +1,134 @@
+[
+    {
+        "class": "Stackable Currency",
+        "baseType": "Flesh Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Life modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Neural Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Mana modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Carapace Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Defence modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Uul-Netol's Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Physical modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Xoph's Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Fire modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Tul's Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Cold modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Esh's Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Lightning modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Chayula's Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Chaos modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Reaver Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Attack modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Sibilant Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Caster modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Skittering Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Speed modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Adaptive Catalyst",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Adds quality that enhances Attribute modifiers on a ring or amulet",
+            "Replaces other quality types"
+        ]
+    }
+]

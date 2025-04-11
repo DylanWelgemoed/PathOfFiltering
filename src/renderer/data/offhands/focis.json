@@ -1,0 +1,200 @@
+[
+    {
+        "class": "Foci",
+        "baseType": "Twig Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "",
+        "stats": [
+            "Energy Shield: 12"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Woven Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 6, 13 Int",
+        "stats": [
+            "Energy Shield: 15"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Antler Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 10, 20 Int",
+        "stats": [
+            "Energy Shield: 17"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Engraved Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 16, 30 Int",
+        "stats": [
+            "Energy Shield: 21"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Tonal Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 22, 42 Int",
+        "stats": [
+            "Energy Shield: 25"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Crystal Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 26, 49 Int",
+        "stats": [
+            "Energy Shield: 28"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Voodoo Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 33, 61 Int",
+        "stats": [
+            "Energy Shield: 32"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Plumed Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 36, 66 Int",
+        "stats": [
+            "Energy Shield: 34"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Jade Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 45, 83 Int",
+        "stats": [
+            "Energy Shield: 40"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Paua Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 51, 94 Int",
+        "stats": [
+            "Energy Shield: 43"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Elegant Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 52, 95 Int",
+        "stats": [
+            "Energy Shield: 44"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Attuned Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 57, 104 Int",
+        "stats": [
+            "Energy Shield: 47"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Magus Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 65, 118 Int",
+        "stats": [
+            "Energy Shield: 52"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Wreath Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 45, 83 Int",
+        "stats": [
+            "Energy Shield: 40"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Staghorn Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 48, 88 Int",
+        "stats": [
+            "Energy Shield: 42"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Jingling Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 51, 94 Int",
+        "stats": [
+            "Energy Shield: 43"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Arrayed Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 55, 101 Int",
+        "stats": [
+            "Energy Shield: 46"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Cultist Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 59, 108 Int",
+        "stats": [
+            "Energy Shield: 49"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Hallowed Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 61, 112 Int",
+        "stats": [
+            "Energy Shield: 50"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Druidic Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 65, 118 Int",
+        "stats": [
+            "Energy Shield: 52"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Leyline Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 70, 129 Int",
+        "stats": [
+            "Energy Shield: 58"
+        ]
+    },
+    {
+        "class": "Foci",
+        "baseType": "Sacred Focus",
+        "defenceType": "Energy Shield",
+        "requirements": "Requires: Level 75, 139 Int",
+        "stats": [
+            "Energy Shield: 63"
+        ]
+    }
+]

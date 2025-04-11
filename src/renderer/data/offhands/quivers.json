@@ -1,0 +1,101 @@
+[
+    {
+        "class": "Quivers",
+        "baseType": "Broadhead Quiver",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Adds 1 to 3 Physical Damage to Attacks"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Fire Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 8",
+        "stats": [
+            "Adds 3 to 5 Fire damage to Attacks"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Sacral Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 16",
+        "stats": [
+            "Gain (2–3) Life per Enemy Hit with Attacks"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Two-Point Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 24",
+        "stats": [
+            "(20–30)% increased Accuracy Rating"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Blunt Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 33",
+        "stats": [
+            "(20–30)% reduced Enemy Stun Threshold"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Toxic Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 39",
+        "stats": [
+            "(10–15)% chance to Poison on Hit with Attacks"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Serrated Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 44",
+        "stats": [
+            "Attacks have (10–15)% chance to cause Bleeding"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Primed Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 51",
+        "stats": [
+            "(7–10)% increased Attack Speed"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Penetrating Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 55",
+        "stats": [
+            "100% chance to Pierce an Enemy"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Volant Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 61",
+        "stats": [
+            "(20–30)% increased Arrow Speed"
+        ]
+    },
+    {
+        "class": "Quivers",
+        "baseType": "Visceral Quiver",
+        "defenceType": "",
+        "requirements": "Requires: Level 65",
+        "stats": [
+            "(20–30)% increased Critical Hit Chance for Attacks"
+        ]
+    }
+]

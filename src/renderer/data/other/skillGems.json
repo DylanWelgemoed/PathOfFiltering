@@ -1,0 +1,23 @@
+[
+    {
+        "class": "Skill Gems",
+        "baseType": "Uncut Skill Gem",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Spirit Gems",
+        "baseType": "Uncut Spirit Gem",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    },
+    {
+        "class": "Support Gems",
+        "baseType": "Uncut Support Gem",
+        "defenceType": "",
+        "requirements": "",
+        "stats": []
+    }
+]

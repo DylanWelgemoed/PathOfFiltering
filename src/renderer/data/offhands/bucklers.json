@@ -1,0 +1,244 @@
+[
+    {
+        "class": "Bucklers",
+        "baseType": "Leather Buckler",
+        "defenceType": "Evasion",
+        "requirements": "",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 10",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Wooden Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 5, 11 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 16",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Plated Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 11, 22 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 26",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Iron Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 16, 30 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 33",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Ridged Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 22, 42 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 43",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Spiked Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 26, 49 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 49",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Ringed Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 33, 61 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 60",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Edged Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 39, 72 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 70",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Laminate Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 45, 83 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 79",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Pearl Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 48, 88 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 84",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Ornate Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 52, 95 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 90",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Array Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 55, 101 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 95",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Aegis Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 65, 118 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 111",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Oak Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 45, 83 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 79",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Painted Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 48, 88 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 84",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Coiled Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 51, 94 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 89",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Spikeward Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 55, 101 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 95",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Jingling Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 59, 108 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 101",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Bladeguard Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 61, 112 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 105",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Ornate Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 65, 118 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 111",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Gutspike Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 70, 129 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 122",
+            "Grants Skill: Parry"
+        ]
+    },
+    {
+        "class": "Bucklers",
+        "baseType": "Ancient Buckler",
+        "defenceType": "Evasion",
+        "requirements": "Requires: Level 75, 139 Dex",
+        "stats": [
+            "Block chance: 20%",
+            "Evasion Rating: 133",
+            "Grants Skill: Parry"
+        ]
+    }
+]

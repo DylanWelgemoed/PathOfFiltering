@@ -1,0 +1,102 @@
+[
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Despair",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Disgust",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Envy",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Fear",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Greed",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Guilt",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Ire",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Isolation",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Paranoia",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    },
+    {
+        "class": "Stackable Currency",
+        "baseType": "Distilled Suffering",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Stack Size: 1 / 10",
+            "Can be combined with other Distilled Emotions to Instil Amulets with Notable Passive Skills or Waystones with Layers of Delirium"
+        ]
+    }
+]

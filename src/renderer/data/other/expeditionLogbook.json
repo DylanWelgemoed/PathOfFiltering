@@ -1,0 +1,9 @@
+[
+    {
+        "class": "Expedition Logbook",
+        "baseType": "Expedition Logbook",
+        "defenceType": "",
+        "requirements": "",
+        "stats": ["Take this item to Dannig in your Hideout to open portals to an expedition."]
+    }
+]
