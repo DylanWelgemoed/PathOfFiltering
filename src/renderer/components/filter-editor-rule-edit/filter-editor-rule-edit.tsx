@@ -129,6 +129,11 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
           rarities: [],
           itemLevel: { type: '>', value: 0 },
           itemTypes: [],
+          quality: { type: '=', value: 0 },
+          corrupted: { value: false },
+          mirrored: { value: false },
+          waystoneTier: { type: '=', value: 0 },
+          stackableSize: { type: '=', value: 0 }
         },
       ],
     }));
@@ -180,15 +185,16 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
         return DisplayItemTypeCondition(condition, index);
       case 'ItemLevel':
         return DisplayItemLevelCondition(condition);
-    }
-
-    return null;
-  };
-
-  const DisplayExtraCondition = (condition: Condition) => {
-    switch (condition.type) {
-      case 'ItemType':
-        return DisplayItemTypeExtraCondition(condition);
+      case 'Quality':
+        return DisplayQualityCondition(condition);
+      case 'Corrupted':
+        return DisplayCorruptedCondition(condition);
+      case 'Mirrored':
+        return DisplayMirroredCondition(condition);
+      case 'WaystoneTier':
+        return DisplayWaystoneTierCondition(condition);
+      case 'StackableSize':
+        return DisplayStackableSizeCondition(condition);
     }
 
     return null;
@@ -253,25 +259,6 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
     );
   };
 
-  const DisplayItemTypeExtraCondition = (condition: Condition) => {
-    return (
-      <div className="flex flex-row gap-2 mt-3">
-        <div className="w-full">
-          <label className="float-right mr-4">Advanced Options</label>
-        </div>
-        <div className="w-full">
-          <label className="block">Is Corrupted</label>
-          <label className="block">Is Mirrored</label>
-          <label className="block">Waystone Tier</label>
-          <label className="block">
-            Stackable Size{' '}
-            <small>(Only use when currency is the only item type)</small>
-          </label>
-        </div>
-      </div>
-    );
-  };
-
   const DisplayItemLevelCondition = (condition: Condition) => {
     return (
       <div className="w-full flex items-center gap-2">
@@ -311,6 +298,220 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
                       ...c,
                       itemLevel: {
                         type: condition.itemLevel.type,
+                        value: parseInt(e.target.value, 10),
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        />
+      </div>
+    );
+  };
+
+  const DisplayQualityCondition = (condition: Condition) => {
+    return (
+      <div className="w-full flex items-center gap-2">
+        <select
+          value={condition.quality.type}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      quality: {
+                        type: e.target.value as '=' | '>' | '<',
+                        value: condition.quality.value,
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        >
+          <option value="=">=</option>
+          <option value=">">&gt;</option>
+          <option value="<">&lt;</option>
+        </select>
+        <input
+          type="number"
+          value={condition.quality.value}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      quality: {
+                        type: condition.quality.type,
+                        value: parseInt(e.target.value, 10),
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        />
+      </div>
+    );
+  };
+
+  const DisplayCorruptedCondition = (condition: Condition) => {
+    return (
+      <div className="w-full flex items-center gap-2">
+        <select
+          value={condition.corrupted.value ? "True" : "False"}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      corrupted: {
+                        value: e.target.value === "True",
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        >
+          <option value="True">True</option>
+          <option value="False">False</option>
+        </select>
+      </div>
+    );
+  };
+
+  const DisplayMirroredCondition = (condition: Condition) => {
+    return (
+      <div className="w-full flex items-center gap-2">
+        <select
+          value={condition.mirrored.value ? "True" : "False"}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      mirrored: {
+                        value: e.target.value === "True",
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        >
+          <option value="True">True</option>
+          <option value="False">False</option>
+        </select>
+      </div>
+    );
+  };
+
+  const DisplayWaystoneTierCondition = (condition: Condition) => {
+    return (
+      <div className="w-full flex items-center gap-2">
+        <select
+          value={condition.waystoneTier.type}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      waystoneTier: {
+                        type: e.target.value as '=' | '>' | '<',
+                        value: condition.waystoneTier.value,
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        >
+          <option value="=">=</option>
+          <option value=">">&gt;</option>
+          <option value="<">&lt;</option>
+        </select>
+        <input
+          type="number"
+          value={condition.waystoneTier.value}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      waystoneTier: {
+                        type: condition.waystoneTier.type,
+                        value: parseInt(e.target.value, 10),
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        />
+      </div>
+    );
+  };
+
+  const DisplayStackableSizeCondition = (condition: Condition) => {
+    return (
+      <div className="w-full flex items-center gap-2">
+        <select
+          value={condition.stackableSize.type}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      stackableSize: {
+                        type: e.target.value as '=' | '>' | '<',
+                        value: condition.stackableSize.value,
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        >
+          <option value="=">=</option>
+          <option value=">">&gt;</option>
+          <option value="<">&lt;</option>
+        </select>
+        <input
+          type="number"
+          value={condition.stackableSize.value}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      stackableSize: {
+                        type: condition.stackableSize.type,
                         value: parseInt(e.target.value, 10),
                       },
                     }
@@ -521,6 +722,11 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
                     <option value="Rarity">Rarity</option>
                     <option value="ItemType">Item Type</option>
                     <option value="ItemLevel">Item Level</option>
+                    <option value="Quality">Quality</option>
+                    <option value="Corrupted">Corrupted</option>
+                    <option value="Mirrored">Mirrored</option>
+                    <option value="WaystoneTier">Waystone Tier</option>
+                    <option value="StackableSize">Stackable Size</option>
                   </select>
                   {DisplayCondition(condition, index)}
                   <button
@@ -530,7 +736,6 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
                     <IoClose size={20} />
                   </button>
                 </div>
-                {DisplayExtraCondition(condition)}
               </div>
             ))}
             <button

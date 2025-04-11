@@ -1,6 +1,15 @@
 [
     {
         "class": "Waystone",
+        "baseType": "Waystone",
+        "defenceType": "",
+        "requirements": "",
+        "stats": [
+            "Area Level: +65"
+        ]
+    },
+    {
+        "class": "Waystone",
         "baseType": "Waystone (Tier 1)",
         "defenceType": "",
         "requirements": "",

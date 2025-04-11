@@ -1,4 +1,4 @@
-import { Filter, Rule, RuleColor, Condition, ConditionType, ConditionItemType, RarityType, ConditionItemLevel } from '../types/types';
+import { Filter, Rule, RuleColor, Condition, ConditionType, ConditionItemType, RarityType, ConditionItemLevel, ConditionQuality, ConditionCorrupted, ConditionMirrored, ConditionWaystoneTier, ConditionStackableSize } from '../types/types';
 import { ColorHelper } from '../utils/color-helper';
 
 export class ConditionModel implements Condition {
@@ -6,12 +6,32 @@ export class ConditionModel implements Condition {
   rarities: RarityType[];
   itemLevel: ConditionItemLevel;
   itemTypes: ConditionItemType[];
+  quality: ConditionQuality;
+  corrupted: ConditionCorrupted;
+  mirrored: ConditionMirrored;
+  waystoneTier: ConditionWaystoneTier;
+  stackableSize: ConditionStackableSize;
 
-  constructor(type: ConditionType, rarities: RarityType[], itemLevel: ConditionItemLevel, itemTypes: ConditionItemType[]) {
+  constructor(
+    type: ConditionType, 
+    rarities: RarityType[], 
+    itemLevel: ConditionItemLevel, 
+    itemTypes: ConditionItemType[],
+    quality: ConditionQuality = { type: '=', value: 0 },
+    corrupted: ConditionCorrupted = { value: false },
+    mirrored: ConditionMirrored = { value: false },
+    waystoneTier: ConditionWaystoneTier = { type: '=', value: 0 },
+    stackableSize: ConditionStackableSize = { type: '=', value: 0 }
+  ) {
     this.type = type;
     this.rarities = rarities;
     this.itemLevel = itemLevel;
     this.itemTypes = itemTypes;
+    this.quality = quality;
+    this.corrupted = corrupted;
+    this.mirrored = mirrored;
+    this.waystoneTier = waystoneTier;
+    this.stackableSize = stackableSize;
   }
 
   setType(type: ConditionType): void {
@@ -19,7 +39,17 @@ export class ConditionModel implements Condition {
   }
 
   clone(): ConditionModel {
-    return new ConditionModel(this.type, this.rarities, this.itemLevel, this.itemTypes);
+    return new ConditionModel(
+      this.type, 
+      this.rarities, 
+      this.itemLevel, 
+      this.itemTypes,
+      this.quality,
+      this.corrupted,
+      this.mirrored,
+      this.waystoneTier,
+      this.stackableSize
+    );
   }
 }
 
@@ -88,8 +118,8 @@ export class RuleModel implements Rule {
     this.areaLevel = enabled ? level : undefined;
   }
 
-  addCondition(type: ConditionType, rarities: RarityType[], itemLevel: ConditionItemLevel, itemTypes: ConditionItemType[]): void {
-    this.conditions.push(new ConditionModel(type, rarities, itemLevel, itemTypes));
+  addCondition(type: ConditionType, rarities: RarityType[], itemLevel: ConditionItemLevel, itemTypes: ConditionItemType[], quality: ConditionQuality, corrupted: ConditionCorrupted, mirrored: ConditionMirrored, waystoneTier: ConditionWaystoneTier, stackableSize: ConditionStackableSize): void {
+    this.conditions.push(new ConditionModel(type, rarities, itemLevel, itemTypes, quality, corrupted, mirrored, waystoneTier, stackableSize));
   }
 
   removeCondition(index: number): void {
@@ -98,9 +128,9 @@ export class RuleModel implements Rule {
     }
   }
 
-  updateCondition(index: number, type: ConditionType, rarities: RarityType[], itemLevel: ConditionItemLevel, itemTypes: ConditionItemType[]): void {
+  updateCondition(index: number, type: ConditionType, rarities: RarityType[], itemLevel: ConditionItemLevel, itemTypes: ConditionItemType[], quality: ConditionQuality, corrupted: ConditionCorrupted, mirrored: ConditionMirrored, waystoneTier: ConditionWaystoneTier, stackableSize: ConditionStackableSize): void {
     if (index >= 0 && index < this.conditions.length) {
-      this.conditions[index] = new ConditionModel(type, rarities, itemLevel, itemTypes);
+      this.conditions[index] = new ConditionModel(type, rarities, itemLevel, itemTypes, quality, corrupted, mirrored, waystoneTier, stackableSize);
     }
   }
 
@@ -239,22 +269,77 @@ export class RuleModel implements Rule {
         for (const line of ruleBlock) {
           if (line.includes('Rarity')) {
             const rarities = line.replace('Rarity ', '').trim().split(' ');
-            conditions.push(new ConditionModel('Rarity', rarities.map(rarity => rarity as RarityType), { type: '=', value: 0 }, []));
+            conditions.push(new ConditionModel(
+              'Rarity', 
+              rarities.map(rarity => rarity as RarityType), 
+              { type: '=', value: 0 }, 
+              [],
+              { type: '=', value: 0 },
+              { value: false },
+              { value: false },
+              { type: '=', value: 0 },
+              { type: '=', value: 0 }
+            ));
           }
 
           if (line.includes('ItemLevel')) {
             const itemLevel = line.replace('ItemLevel ', '').trim().split(' ');
-            conditions.push(new ConditionModel('ItemLevel', [], { type: itemLevel[0] as  '=' | '>' | '<', value: parseInt(itemLevel[1]) }, []));
+            conditions.push(new ConditionModel(
+              'ItemLevel', 
+              [], 
+              { type: itemLevel[0] as '=' | '>' | '<', value: parseInt(itemLevel[1]) }, 
+              [],
+              { type: '=', value: 0 },
+              { value: false },
+              { value: false },
+              { type: '=', value: 0 },
+              { type: '=', value: 0 }
+            ));
           }
 
           if (line.includes('Class') || line.includes('BaseType')) {
             const itemType = line.replace('Class ', '').replace('BaseType ', '').trim();
             itemTypes.push({ type: line.includes('Class') ? 'class' : 'basetype', value: itemType });
           }
+
+          if (line.includes('Quality')) {
+            const quality = line.replace('Quality ', '').trim().split(' ');
+            conditions.push(new ConditionModel('Quality', [], { type: quality[0] as '=' | '>' | '<', value: parseInt(quality[1]) }, [], { type: quality[0] as '=' | '>' | '<', value: parseInt(quality[1]) }, { value: false }, { value: false }, { type: '=', value: 0 }, { type: '=', value: 0 }));
+          }
+
+          if (line.includes('Corrupted')) {
+            const corrupted = line.replace('Corrupted ', '').trim();
+            conditions.push(new ConditionModel('Corrupted', [], { type: '=', value: 0 }, [], { type: '=', value: 0 }, { value: corrupted.includes("True") }, { value: false }, { type: '=', value: 0 }, { type: '=', value: 0 }));
+          }
+
+          if (line.includes('Mirrored')) {
+            const mirrored = line.replace('Mirrored ', '').trim();
+            conditions.push(new ConditionModel('Mirrored', [], { type: '=', value: 0 }, [], { type: '=', value: 0 }, { value: false }, { value: mirrored.includes("True") }, { type: '=', value: 0 }, { type: '=', value: 0 }));
+          }
+
+          if (line.includes('WaystoneTier')) {
+            const waystoneTier = line.replace('WaystoneTier ', '').trim().split(' ');
+            conditions.push(new ConditionModel('WaystoneTier', [], { type: waystoneTier[0] as '=' | '>' | '<', value: parseInt(waystoneTier[1]) }, [], { type: '=', value: 0 }, { value: false }, { value: false }, { type: waystoneTier[0] as '=' | '>' | '<', value: parseInt(waystoneTier[1]) }, { type: '=', value: 0 }));
+          }
+
+          if (line.includes('StackSize')) {
+            const stackableSize = line.replace('StackSize ', '').trim().split(' ');
+            conditions.push(new ConditionModel('StackableSize', [], { type: stackableSize[0] as '=' | '>' | '<', value: parseInt(stackableSize[1]) }, [], { type: '=', value: 0 }, { value: false }, { value: false }, { type: '=', value: 0 }, { type: stackableSize[0] as '=' | '>' | '<', value: parseInt(stackableSize[1]) }));
+          }
         }
 
         if (itemTypes.length > 0) {
-          conditions.push(new ConditionModel('ItemType', [], { type: '=', value: 0 }, itemTypes));
+          conditions.push(new ConditionModel(
+            'ItemType', 
+            [], 
+            { type: '=', value: 0 }, 
+            itemTypes,
+            { type: '=', value: 0 },
+            { value: false },
+            { value: false },
+            { type: '=', value: 0 },
+            { type: '=', value: 0 }
+          ));
         }
 
         currentRule = new RuleModel(action, ruleName, color, isEmphasized, hasMapIcon, mapIcon, hasAreaLevelDependency, areaLevel, conditions, false, undefined, false);
@@ -317,6 +402,21 @@ export class RuleModel implements Rule {
           if (condition.itemTypes.filter(itemType => itemType.type === 'basetype').length > 0) {
             string += `\tBaseType == ${condition.itemTypes.filter(itemType => itemType.type === 'basetype').map(itemType => `"${itemType.value}"`).join(' ')} \n`;
           }
+          break;
+        case 'Quality':
+          string += `\tQuality ${condition.quality.type} ${condition.quality.value} \n`;
+          break;
+        case 'Corrupted':
+          string += `\tCorrupted ${condition.corrupted.value ? "True" : "False"} \n`;
+          break;
+        case 'Mirrored':
+          string += `\tMirrored ${condition.mirrored.value ? "True" : "False"} \n`;
+          break;
+        case 'WaystoneTier':
+          string += `\tWaystoneTier ${condition.waystoneTier.type} ${condition.waystoneTier.value} \n`;
+          break;
+        case 'StackableSize':
+          string += `\tStackSize ${condition.stackableSize.type} ${condition.stackableSize.value} \n`;
           break;
       }
     }

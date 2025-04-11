@@ -79,7 +79,7 @@ export interface Rule {
   conditions: Condition[];
 }
 
-export type ConditionType = 'Rarity' | 'ItemType' | 'ItemLevel';
+export type ConditionType = 'Rarity' | 'ItemType' | 'ItemLevel' | 'Quality' | 'Corrupted' | 'Mirrored' | 'WaystoneTier' | 'StackableSize';
 export type RarityType = 'Normal' | 'Magic' | 'Rare' | 'Unique';
 
 export interface Condition {
@@ -88,6 +88,11 @@ export interface Condition {
   rarities: RarityType[];
   itemLevel: ConditionItemLevel;
   itemTypes: ConditionItemType[];  
+  quality: ConditionQuality;
+  corrupted: ConditionCorrupted;
+  mirrored: ConditionMirrored;
+  waystoneTier: ConditionWaystoneTier;
+  stackableSize: ConditionStackableSize;
 }
 
 export interface ConditionItemLevel {
@@ -100,4 +105,25 @@ export interface ConditionItemType {
   value: string;
 }
 
+export interface ConditionQuality {
+  type: '=' | '>' | '<';
+  value: number;
+}
 
+export interface ConditionCorrupted {
+  value: boolean;
+}
+
+export interface ConditionMirrored {
+  value: boolean;
+}
+
+export interface ConditionWaystoneTier {
+  type: '=' | '>' | '<';
+  value: number;
+}
+
+export interface ConditionStackableSize {
+  type: '=' | '>' | '<';
+  value: number;
+}
