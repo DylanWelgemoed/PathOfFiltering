@@ -1,13 +1,19 @@
-import { globalShortcut, BrowserWindow } from 'electron';
+import { globalShortcut, BrowserWindow, ipcMain } from 'electron';
 
 let mainWindow: BrowserWindow | null = null;
+let isInputFocused = false;
 
 export const setupHotkeys = (window: BrowserWindow) => {
   mainWindow = window;
   
+  // Register input focus state handler
+  ipcMain.on('input-focused', (_, focused: boolean) => {
+    isInputFocused = focused;
+  });
+  
   // Register Shift + F shortcut
   globalShortcut.register('Shift+F', () => {
-    if (mainWindow) {
+    if (mainWindow && !isInputFocused) {
       if (mainWindow.isVisible()) {
         mainWindow.hide();
       } else {
