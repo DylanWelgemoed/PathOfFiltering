@@ -129,7 +129,8 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
       'Corrupted',
       'Mirrored',
       'WaystoneTier',
-      'StackableSize'
+      'StackableSize',
+      'Sockets'
     ];
     const availableType = allTypes.find(type => !usedTypes.includes(type));
 
@@ -147,7 +148,8 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
             corrupted: { value: false },
             mirrored: { value: false },
             waystoneTier: { type: '=', value: 0 },
-            stackableSize: { type: '=', value: 0 }
+            stackableSize: { type: '=', value: 0 },
+            sockets: { type: '=', value: 0 }
           },
         ],
       }));
@@ -205,7 +207,8 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
       'Corrupted',
       'Mirrored',
       'WaystoneTier',
-      'StackableSize'
+      'StackableSize',
+      'Sockets'
     ];
 
     return allTypes.filter(type => !usedTypes.includes(type));
@@ -221,7 +224,8 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
       'Corrupted',
       'Mirrored',
       'WaystoneTier',
-      'StackableSize'
+      'StackableSize',
+      'Sockets'
     ];
 
     return usedTypes.length < allTypes.length;
@@ -245,6 +249,8 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
         return DisplayWaystoneTierCondition(condition);
       case 'StackableSize':
         return DisplayStackableSizeCondition(condition);
+      case 'Sockets':
+        return DisplaySocketsCondition(condition);
     }
 
     return null;
@@ -575,6 +581,58 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
     );
   };
 
+  const DisplaySocketsCondition = (condition: Condition) => {
+    return (
+      <div className="w-full flex items-center gap-2">
+        <select
+          value={condition.sockets.type}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      sockets: {
+                        type: e.target.value as '=' | '>' | '<',
+                        value: condition.sockets.value,
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        >
+          <option value="=">=</option>
+          <option value=">">&gt;</option>
+          <option value="<">&lt;</option>
+        </select>
+        <input
+          type="number"
+          value={condition.sockets.value}
+          onChange={(e) => {
+            setEditedRule((prev) => ({
+              ...prev,
+              conditions: prev.conditions.map((c) =>
+                c === condition
+                  ? {
+                      ...c,
+                      sockets: {
+                        type: condition.sockets.type,
+                        value: parseInt(e.target.value, 10),
+                      },
+                    }
+                  : c,
+              ),
+            }));
+          }}
+          className="w-full"
+        />
+      </div>
+    );
+  };
+
   return (
     <div className="bg-onyx-500 p-5 pt-2 shadow-lg w-[1000px]">
       <div className="flex justify-between items-center mb-2">
@@ -775,6 +833,7 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
                          type === 'ItemLevel' ? 'Item Level' :
                          type === 'WaystoneTier' ? 'Waystone Tier' :
                          type === 'StackableSize' ? 'Stackable Size' :
+                         type === 'Sockets' ? 'Sockets' :
                          type}
                       </option>
                     ))}

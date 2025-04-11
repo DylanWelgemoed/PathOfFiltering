@@ -1,4 +1,4 @@
-import { Filter, Rule, RuleColor, Condition, ConditionType, ConditionItemType, RarityType, ConditionItemLevel, ConditionQuality, ConditionCorrupted, ConditionMirrored, ConditionWaystoneTier, ConditionStackableSize } from '../types/types';
+import { Filter, Rule, RuleColor, Condition, ConditionType, ConditionItemType, RarityType, ConditionItemLevel, ConditionQuality, ConditionCorrupted, ConditionMirrored, ConditionWaystoneTier, ConditionStackableSize, ConditionSockets } from '../types/types';
 import { ColorHelper } from '../utils/color-helper';
 
 export class ConditionModel implements Condition {
@@ -11,6 +11,7 @@ export class ConditionModel implements Condition {
   mirrored: ConditionMirrored;
   waystoneTier: ConditionWaystoneTier;
   stackableSize: ConditionStackableSize;
+  sockets: ConditionSockets;
 
   constructor(
     type: ConditionType, 
@@ -21,7 +22,8 @@ export class ConditionModel implements Condition {
     corrupted: ConditionCorrupted = { value: false },
     mirrored: ConditionMirrored = { value: false },
     waystoneTier: ConditionWaystoneTier = { type: '=', value: 0 },
-    stackableSize: ConditionStackableSize = { type: '=', value: 0 }
+    stackableSize: ConditionStackableSize = { type: '=', value: 0 },
+    sockets: ConditionSockets = { type: '=', value: 0 }
   ) {
     this.type = type;
     this.rarities = rarities;
@@ -32,6 +34,7 @@ export class ConditionModel implements Condition {
     this.mirrored = mirrored;
     this.waystoneTier = waystoneTier;
     this.stackableSize = stackableSize;
+    this.sockets = sockets;
   }
 
   setType(type: ConditionType): void {
@@ -48,7 +51,8 @@ export class ConditionModel implements Condition {
       this.corrupted,
       this.mirrored,
       this.waystoneTier,
-      this.stackableSize
+      this.stackableSize,
+      this.sockets
     );
   }
 }
@@ -325,6 +329,11 @@ export class RuleModel implements Rule {
             const stackableSize = line.replace('StackSize ', '').trim().split(' ');
             conditions.push(new ConditionModel('StackableSize', [], { type: stackableSize[0] as '=' | '>' | '<', value: parseInt(stackableSize[1]) }, [], { type: '=', value: 0 }, { value: false }, { value: false }, { type: '=', value: 0 }, { type: stackableSize[0] as '=' | '>' | '<', value: parseInt(stackableSize[1]) }));
           }
+
+          if (line.includes('Sockets')) {
+            const sockets = line.replace('Sockets ', '').trim().split(' ');
+            conditions.push(new ConditionModel('Sockets', [], { type: sockets[0] as '=' | '>' | '<', value: parseInt(sockets[1]) }, [], { type: '=', value: 0 }, { value: false }, { value: false }, { type: '=', value: 0 }, { type: '=', value: 0 }, { type: sockets[0] as '=' | '>' | '<', value: parseInt(sockets[1]) }));
+          }
         }
 
         if (itemTypes.length > 0) {
@@ -416,6 +425,9 @@ export class RuleModel implements Rule {
           break;
         case 'StackableSize':
           string += `\tStackSize ${condition.stackableSize.type} ${condition.stackableSize.value} \n`;
+          break;
+        case 'Sockets':
+          string += `\tSockets ${condition.sockets.type} ${condition.sockets.value} \n`;
           break;
       }
     }
