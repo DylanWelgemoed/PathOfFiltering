@@ -276,10 +276,10 @@ export class RuleModel implements Rule {
           break;
         case 'ItemType':
           if (condition.itemTypes.filter(itemType => itemType.type === 'class').length > 0) {
-            string += `\tClass == ${condition.itemTypes.filter(itemType => itemType.type === 'class').map(itemType => itemType.value).join(' ')} \n`;
+            string += `\tClass == ${condition.itemTypes.filter(itemType => itemType.type === 'class').map(itemType => `"${itemType.value}"`).join(' ')} \n`;
           }
           if (condition.itemTypes.filter(itemType => itemType.type === 'basetype').length > 0) {
-            string += `\tBaseType == ${condition.itemTypes.filter(itemType => itemType.type === 'basetype').map(itemType => itemType.value).join(' ')} \n`;
+            string += `\tBaseType == ${condition.itemTypes.filter(itemType => itemType.type === 'basetype').map(itemType => `"${itemType.value}"`).join(' ')} \n`;
           }
           break;
       }

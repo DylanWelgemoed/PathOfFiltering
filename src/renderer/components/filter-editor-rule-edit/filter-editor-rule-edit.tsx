@@ -6,7 +6,6 @@ import {
   MinimapIcon,
   Condition,
   RarityType,
-  ConditionItemType,
 } from '../../types/types';
 import { IoClose, IoAddOutline } from 'react-icons/io5';
 import MultiSelect from '../foundation/multi-select/multi-select';
@@ -62,14 +61,7 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
     setEditedRule((prev) => ({
       ...prev,
       action,
-      color: action === 'Recolor' ? RuleColor.NORMAL : undefined,
-    }));
-  };
-
-  const handleColorChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setEditedRule((prev) => ({
-      ...prev,
-      color: e.target.value,
+      color: action === 'Recolor' ? RuleColor.White : undefined,
     }));
   };
 
@@ -354,7 +346,7 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
                 COLOR
               </label>
               <ColorPicker
-                value={editedRule.color || RuleColor.NORMAL}
+                value={editedRule.color || RuleColor.White}
                 onChange={(color) => {
                   setEditedRule((prev) => ({
                     ...prev,
