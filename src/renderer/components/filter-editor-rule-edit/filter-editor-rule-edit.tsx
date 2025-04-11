@@ -120,23 +120,38 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
   };
 
   const handleAddCondition = () => {
-    setEditedRule((prev) => ({
-      ...prev,
-      conditions: [
-        ...prev.conditions,
-        {
-          type: 'Rarity',
-          rarities: [],
-          itemLevel: { type: '>', value: 0 },
-          itemTypes: [],
-          quality: { type: '=', value: 0 },
-          corrupted: { value: false },
-          mirrored: { value: false },
-          waystoneTier: { type: '=', value: 0 },
-          stackableSize: { type: '=', value: 0 }
-        },
-      ],
-    }));
+    const usedTypes = editedRule.conditions.map(condition => condition.type);
+    const allTypes: ConditionType[] = [
+      'Rarity',
+      'ItemType',
+      'ItemLevel',
+      'Quality',
+      'Corrupted',
+      'Mirrored',
+      'WaystoneTier',
+      'StackableSize'
+    ];
+    const availableType = allTypes.find(type => !usedTypes.includes(type));
+
+    if (availableType) {
+      setEditedRule((prev) => ({
+        ...prev,
+        conditions: [
+          ...prev.conditions,
+          {
+            type: availableType,
+            rarities: [],
+            itemLevel: { type: '>', value: 0 },
+            itemTypes: [],
+            quality: { type: '=', value: 0 },
+            corrupted: { value: false },
+            mirrored: { value: false },
+            waystoneTier: { type: '=', value: 0 },
+            stackableSize: { type: '=', value: 0 }
+          },
+        ],
+      }));
+    }
   };
 
   const handleRemoveCondition = (index: number) => {
@@ -175,6 +190,41 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
       ...prev,
       hasBeamEffect: e.target.checked,
     }));
+  };
+
+  const getAvailableConditionTypes = (currentCondition: Condition, index: number): ConditionType[] => {
+    const usedTypes = editedRule.conditions
+      .filter((_, i) => i !== index) // Exclude current condition
+      .map(condition => condition.type);
+
+    const allTypes: ConditionType[] = [
+      'Rarity',
+      'ItemType',
+      'ItemLevel',
+      'Quality',
+      'Corrupted',
+      'Mirrored',
+      'WaystoneTier',
+      'StackableSize'
+    ];
+
+    return allTypes.filter(type => !usedTypes.includes(type));
+  };
+
+  const canAddNewCondition = (): boolean => {
+    const usedTypes = editedRule.conditions.map(condition => condition.type);
+    const allTypes: ConditionType[] = [
+      'Rarity',
+      'ItemType',
+      'ItemLevel',
+      'Quality',
+      'Corrupted',
+      'Mirrored',
+      'WaystoneTier',
+      'StackableSize'
+    ];
+
+    return usedTypes.length < allTypes.length;
   };
 
   const DisplayCondition = (condition: Condition, index: number) => {
@@ -719,14 +769,15 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
                     }
                     className="w-full"
                   >
-                    <option value="Rarity">Rarity</option>
-                    <option value="ItemType">Item Type</option>
-                    <option value="ItemLevel">Item Level</option>
-                    <option value="Quality">Quality</option>
-                    <option value="Corrupted">Corrupted</option>
-                    <option value="Mirrored">Mirrored</option>
-                    <option value="WaystoneTier">Waystone Tier</option>
-                    <option value="StackableSize">Stackable Size</option>
+                    {getAvailableConditionTypes(condition, index).map(type => (
+                      <option key={type} value={type}>
+                        {type === 'ItemType' ? 'Item Type' :
+                         type === 'ItemLevel' ? 'Item Level' :
+                         type === 'WaystoneTier' ? 'Waystone Tier' :
+                         type === 'StackableSize' ? 'Stackable Size' :
+                         type}
+                      </option>
+                    ))}
                   </select>
                   {DisplayCondition(condition, index)}
                   <button
@@ -738,13 +789,15 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
                 </div>
               </div>
             ))}
-            <button
-              onClick={handleAddCondition}
-              className="button-secondary tracking-wider w-min-10 flex items-center justify-center gap-2 min-h-10"
-            >
-              <IoAddOutline size={20} />
-              ADD CONDITION
-            </button>
+            {canAddNewCondition() && (
+              <button
+                onClick={handleAddCondition}
+                className="button-secondary tracking-wider w-min-10 flex items-center justify-center gap-2 min-h-10"
+              >
+                <IoAddOutline size={20} />
+                ADD CONDITION
+              </button>
+            )}
           </div>
         </div>
       </div>
