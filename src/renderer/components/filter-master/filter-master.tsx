@@ -45,6 +45,16 @@ export default function App() {
       loadFilters();
     });
 
+    // Attach to the game window
+    window.electron.ipcRenderer.once('attach-to-game', (arg: any) => {
+      if (arg.success) {
+        console.log('Attached to game:', arg.success);
+      } else {
+        console.error('Failed to attach to game:', arg.error);
+      }
+    });
+    window.electron.ipcRenderer.sendMessage('attach-to-game');
+
     return () => {
       removeListener();
     };

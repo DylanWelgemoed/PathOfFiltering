@@ -221,7 +221,6 @@ export class RuleModel implements Rule {
               backgroundColor = trimmedLine.replace('SetBackgroundColor', '').trim();
             } else if (trimmedLine.startsWith('SetFontSize')) {
               const fontSize = parseInt(trimmedLine.replace('SetFontSize', '').trim());
-              console.log(fontSize);
               isEmphasized = fontSize >= 32;
             } else if (trimmedLine.startsWith('MinimapIcon')) {
               hasMapIcon = true;

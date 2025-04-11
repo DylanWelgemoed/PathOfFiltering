@@ -11,21 +11,14 @@ export const setupHotkeys = (window: BrowserWindow) => {
       if (mainWindow.isVisible()) {
         mainWindow.hide();
       } else {
+        mainWindow.setAlwaysOnTop(true);
         mainWindow.show();
         mainWindow.focus();
-        mainWindow.setAlwaysOnTop(true);
-        // Set a timeout to remove always on top after a short delay
-        // This ensures the window comes to front but doesn't stay on top permanently
-        setTimeout(() => {
-          if (mainWindow) {
-            mainWindow.setAlwaysOnTop(false);
-          }
-        }, 100);
       }
     }
   });
 };
 
 export const unregisterHotkeys = () => {
-  globalShortcut.unregister('Shift+F');
+  globalShortcut.unregisterAll();
 };
