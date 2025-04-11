@@ -45,12 +45,34 @@ export enum MinimapIcon {
   UpsideDownHouse = 'UpsideDownHouse'
 } 
 
+export enum SoundEffect {
+  Dodoosh = 1,
+  Gong = 2,
+  Gonger = 3,
+  Weeoow = 4,
+  Shweeoow = 5,
+  Seeof = 6,
+  Ominous = 7,
+  OminousHarsh = 8,
+  Ominousish = 9,
+  Anvil = 10,
+  Bang = 11,
+  Dong = 12,
+  Sheesh = 13,
+  OminousDistant = 14,
+  RollingSymbol = 15,
+  Doof = 16
+}
+
 export interface Rule {
   action: 'Show' | 'Hide' | 'Recolor';
   color?: RuleColor;
   isEmphasized: boolean;
   hasMapIcon: boolean;
   mapIcon?: string;
+  hasSoundEffect?: boolean;
+  soundEffect?: number;
+  hasBeamEffect?: boolean;
   name: string;
   hasAreaLevelDependency: boolean;
   areaLevel?: number;

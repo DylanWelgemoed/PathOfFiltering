@@ -33,6 +33,9 @@ export class RuleModel implements Rule {
   hasAreaLevelDependency: boolean;
   areaLevel?: number;
   conditions: Condition[];
+  hasSoundEffect: boolean;
+  soundEffect?: number;
+  hasBeamEffect: boolean;
 
   constructor(
     action: 'Show' | 'Hide' | 'Recolor', 
@@ -43,7 +46,10 @@ export class RuleModel implements Rule {
     mapIcon?: string,
     hasAreaLevelDependency: boolean = false,
     areaLevel?: number,
-    conditions: Condition[] = []
+    conditions: Condition[] = [],
+    hasSoundEffect: boolean = false,
+    soundEffect?: number,
+    hasBeamEffect: boolean = false
   ) {
     this.action = action;
     this.name = name;
@@ -54,6 +60,9 @@ export class RuleModel implements Rule {
     this.hasAreaLevelDependency = hasAreaLevelDependency;
     this.areaLevel = areaLevel;
     this.conditions = conditions;
+    this.hasSoundEffect = hasSoundEffect;
+    this.soundEffect = soundEffect;
+    this.hasBeamEffect = hasBeamEffect;
   }
 
   setColor(color: RuleColor): void {
@@ -110,7 +119,10 @@ export class RuleModel implements Rule {
           return condition.clone();
         }
         return new ConditionModel(condition.type, condition.rarities, condition.itemLevel, condition.itemTypes);
-      })
+      }),
+      this.hasSoundEffect,
+      this.soundEffect,
+      this.hasBeamEffect
     );
   }
 
@@ -204,6 +216,22 @@ export class RuleModel implements Rule {
           areaLevel = parseInt(ruleBlock.find(line => line.includes('AreaLevel'))?.replace('AreaLevel >= ', '').trim() || '0');
         }
 
+        // Get Sound Effect
+        let hasSoundEffect = false;
+        let soundEffect = 0;
+
+        if (ruleBlock.some(line => line.includes('PlayAlertSound'))) {
+          hasSoundEffect = true;
+          soundEffect = parseInt(ruleBlock.find(line => line.includes('PlayAlertSound'))?.replace('PlayAlertSound ', '').trim() || '0');
+        }
+
+        // Get Beam Effect
+        let hasBeamEffect = false;
+
+        if (ruleBlock.some(line => line.includes('PlayEffect'))) {
+          hasBeamEffect = true;
+        }
+
         // Get Conditions
         const conditions: Condition[] = [];
         const itemTypes: ConditionItemType[] = [];
@@ -229,7 +257,7 @@ export class RuleModel implements Rule {
           conditions.push(new ConditionModel('ItemType', [], { type: '=', value: 0 }, itemTypes));
         }
 
-        currentRule = new RuleModel(action, ruleName, color, isEmphasized, hasMapIcon, mapIcon, hasAreaLevelDependency, areaLevel, conditions);
+        currentRule = new RuleModel(action, ruleName, color, isEmphasized, hasMapIcon, mapIcon, hasAreaLevelDependency, areaLevel, conditions, false, undefined, false);
         rules.push(currentRule);
       }
     }
@@ -264,6 +292,14 @@ export class RuleModel implements Rule {
 
     if (this.hasAreaLevelDependency) {
       string += `\tAreaLevel >= ${this.areaLevel} \n`;
+    }
+
+    if (this.hasSoundEffect && this.soundEffect) {
+      string += `\tPlayAlertSound ${this.soundEffect} 200 \n`;
+    }
+
+    if (this.hasBeamEffect) {
+      string += `\tPlayEffect ${ColorHelper.getRuleColorName(this.color as RuleColor)}  \n`;
     }
 
     for (const condition of this.conditions) {
@@ -334,7 +370,7 @@ export class FilterModel implements Filter {
 
   updateRule(index: number, updatedRule: Rule): void {
     if (index >= 0 && index < this.rules.length) {
-      this.rules[index] = new RuleModel(updatedRule.action, updatedRule.name, updatedRule.color, updatedRule.isEmphasized, updatedRule.hasMapIcon, updatedRule.mapIcon, updatedRule.hasAreaLevelDependency, updatedRule.areaLevel, updatedRule.conditions);
+      this.rules[index] = new RuleModel(updatedRule.action, updatedRule.name, updatedRule.color, updatedRule.isEmphasized, updatedRule.hasMapIcon, updatedRule.mapIcon, updatedRule.hasAreaLevelDependency, updatedRule.areaLevel, updatedRule.conditions, updatedRule.hasSoundEffect, updatedRule.soundEffect, updatedRule.hasBeamEffect);
       this.updateLastEdited();
     }
   }

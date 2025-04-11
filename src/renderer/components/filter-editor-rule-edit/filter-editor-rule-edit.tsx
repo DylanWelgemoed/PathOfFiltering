@@ -6,6 +6,7 @@ import {
   MinimapIcon,
   Condition,
   RarityType,
+  SoundEffect,
 } from '../../types/types';
 import { IoClose, IoAddOutline } from 'react-icons/io5';
 import MultiSelect from '../foundation/multi-select/multi-select';
@@ -33,8 +34,13 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
     mapIcon: '',
     hasAreaLevelDependency: false,
     conditions: [],
+    hasSoundEffect: false,
+    soundEffect: undefined,
+    hasBeamEffect: false,
   });
-  const [showItemTypeSelector, setShowItemTypeSelector] = useState<number | null>(null);
+  const [showItemTypeSelector, setShowItemTypeSelector] = useState<
+    number | null
+  >(null);
 
   useEffect(() => {
     if (rule) {
@@ -48,6 +54,9 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
         mapIcon: '',
         hasAreaLevelDependency: false,
         conditions: [],
+        hasSoundEffect: false,
+        soundEffect: undefined,
+        hasBeamEffect: false,
       });
     }
   }, [rule]);
@@ -141,6 +150,28 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
     }));
   };
 
+  const handleSoundEffectToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setEditedRule((prev) => ({
+      ...prev,
+      hasSoundEffect: e.target.checked,
+      soundEffect: e.target.checked ? prev.soundEffect || 1 : undefined,
+    }));
+  };
+
+  const handleSoundEffectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setEditedRule((prev) => ({
+      ...prev,
+      soundEffect: parseInt(e.target.value, 10),
+    }));
+  };
+
+  const handleBeamEffectToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setEditedRule((prev) => ({
+      ...prev,
+      hasBeamEffect: e.target.checked,
+    }));
+  };
+
   const DisplayCondition = (condition: Condition, index: number) => {
     switch (condition.type) {
       case 'Rarity':
@@ -180,7 +211,9 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
             setEditedRule((prev) => ({
               ...prev,
               conditions: prev.conditions.map((c) =>
-                c === condition ? { ...c, rarities: selectedRarities as RarityType[] } : c
+                c === condition
+                  ? { ...c, rarities: selectedRarities as RarityType[] }
+                  : c,
               ),
             }));
           }}
@@ -207,7 +240,7 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
               setEditedRule((prev) => ({
                 ...prev,
                 conditions: prev.conditions.map((c, i) =>
-                  i === index ? { ...c, itemTypes: selectedItems } : c
+                  i === index ? { ...c, itemTypes: selectedItems } : c,
                 ),
               }));
               setShowItemTypeSelector(null);
@@ -230,7 +263,10 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
           <label className="block">Is Corrupted</label>
           <label className="block">Is Mirrored</label>
           <label className="block">Waystone Tier</label>
-          <label className="block">Stackable Size <small>(Only use when currency is the only item type)</small></label>
+          <label className="block">
+            Stackable Size{' '}
+            <small>(Only use when currency is the only item type)</small>
+          </label>
         </div>
       </div>
     );
@@ -341,59 +377,94 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
           </div>
 
           {editedRule.action === 'Recolor' && (
-            <div>
-              <label className="block text-sm font-medium mb-1 text-white">
-                COLOR
-              </label>
-              <ColorPicker
-                value={editedRule.color || RuleColor.White}
-                onChange={(color) => {
-                  setEditedRule((prev) => ({
-                    ...prev,
-                    color,
-                  }));
-                }}
-              />
-            </div>
-          )}
+            <>
+              <div>
+                <label className="block text-sm font-medium mb-1 text-white">
+                  COLOR
+                </label>
+                <ColorPicker
+                  value={editedRule.color || RuleColor.White}
+                  onChange={(color) => {
+                    setEditedRule((prev) => ({
+                      ...prev,
+                      color,
+                    }));
+                  }}
+                />
+              </div>
 
-          {editedRule.action === 'Recolor' && (
-            <div className="flex items-center gap-2">
-              <input
-                type="checkbox"
-                checked={editedRule.isEmphasized}
-                onChange={handleEmphasizeToggle}
-                className="w-4 h-4 text-blue-600 bg-onyx-400 border-onyx-300 focus:ring-blue-500"
-              />
-              <label className="text-sm text-white">Emphasize</label>
-            </div>
-          )}
-
-          {editedRule.action === 'Recolor' && (
-            <div className="flex flex-col gap-2">
               <div className="flex items-center gap-2">
                 <input
                   type="checkbox"
-                  checked={editedRule.hasMapIcon}
-                  onChange={handleMapIconToggle}
+                  checked={editedRule.isEmphasized}
+                  onChange={handleEmphasizeToggle}
                   className="w-4 h-4 text-blue-600 bg-onyx-400 border-onyx-300 focus:ring-blue-500"
                 />
-                <label className="text-sm text-white">Map Icon</label>
+                <label className="text-sm text-white">Emphasize</label>
               </div>
-              {editedRule.hasMapIcon && (
-                <select
-                  value={editedRule.mapIcon}
-                  onChange={handleMapIconChange}
-                  className="block w-full"
-                >
-                  {Object.entries(MinimapIcon).map(([name, value]) => (
-                    <option key={value} value={value}>
-                      {name}
-                    </option>
-                  ))}
-                </select>
-              )}
-            </div>
+
+              <div className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  checked={editedRule.hasBeamEffect}
+                  onChange={handleBeamEffectToggle}
+                  className="w-4 h-4 text-blue-600 bg-onyx-400 border-onyx-300 focus:ring-blue-500"
+                />
+                <label className="text-sm text-white">Beam Effect</label>
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    checked={editedRule.hasMapIcon}
+                    onChange={handleMapIconToggle}
+                    className="w-4 h-4 text-blue-600 bg-onyx-400 border-onyx-300 focus:ring-blue-500"
+                  />
+                  <label className="text-sm text-white">Map Icon</label>
+                </div>
+                {editedRule.hasMapIcon && (
+                  <select
+                    value={editedRule.mapIcon}
+                    onChange={handleMapIconChange}
+                    className="block w-full"
+                  >
+                    {Object.entries(MinimapIcon).map(([name, value]) => (
+                      <option key={value} value={value}>
+                        {name}
+                      </option>
+                    ))}
+                  </select>
+                )}
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    checked={editedRule.hasSoundEffect}
+                    onChange={handleSoundEffectToggle}
+                    className="w-4 h-4 text-blue-600 bg-onyx-400 border-onyx-300 focus:ring-blue-500"
+                  />
+                  <label className="text-sm text-white">Sound Effect</label>
+                </div>
+                {editedRule.hasSoundEffect && (
+                  <select
+                    value={editedRule.soundEffect}
+                    onChange={handleSoundEffectChange}
+                    className="block w-full"
+                  >
+                    {Object.entries(SoundEffect)
+                      .filter(([key]) => isNaN(Number(key)))
+                      .map(([name, value]) => (
+                        <option key={value} value={value}>
+                          {name}
+                        </option>
+                      ))}
+                  </select>
+                )}
+              </div>
+            </>
           )}
 
           <div className="flex flex-col gap-2">
@@ -435,10 +506,7 @@ const FilterEditorRuleEdit: React.FC<FilterEditorRuleEditProps> = ({
 
           <div className="space-y-2 bg-onyx-400 p-2 pt-3 overflow-y-auto min-h-[570px] max-h-[570px]">
             {editedRule.conditions.map((condition, index) => (
-              <div
-                key={index}
-                className="flex flex-col bg-onyx-500 p-2"
-              >
+              <div key={index} className="flex flex-col bg-onyx-500 p-2">
                 <div className="flex flex-row items-center gap-2">
                   <select
                     value={condition.type}
