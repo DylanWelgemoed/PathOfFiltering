@@ -567,13 +567,6 @@
     },
     {
       "class": "Helmets",
-      "baseType": "Golden Visage",
-      "defenceType": "",
-      "requirements": "",
-      "stats": []
-    },
-    {
-      "class": "Helmets",
       "baseType": "Corroded Greathelm",
       "defenceType": "Armour",
       "requirements": "Requires: Level 45, 83 Str",
