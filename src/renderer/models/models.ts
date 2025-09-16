@@ -160,7 +160,7 @@ export class RuleModel implements Rule {
     );
   }
 
-  static fromString(data: string): RuleModel[] {
+  static fromString(data: string, isNeverSink: boolean = false): RuleModel[] {
     // Check if data is defined before splitting
     const lines = data ? data.split('\n') : [];
 
@@ -177,14 +177,27 @@ export class RuleModel implements Rule {
         let actionFound = false;
 
         // Get Action and Rule Name
-        if (line === 'Show') {
-          const actionRuleNameSplit = lines[i-1].replace('# ', '').trim().split(' - ');
-          action = actionRuleNameSplit[0] as 'Show' | 'Hide' | 'Recolor';
-          ruleName = actionRuleNameSplit[1];
-          actionFound = true;
-        } else if (line === 'Hide') {
-          ruleName = lines[i-1].replace('# Hide - ', '').trim();
-          actionFound = true;
+
+        if(!isNeverSink) {
+          if (line === 'Show') {
+            const actionRuleNameSplit = lines[i-1].replace('# ', '').trim().split(' - ');
+            action = actionRuleNameSplit[0] as 'Show' | 'Hide' | 'Recolor';
+            ruleName = actionRuleNameSplit[1];
+            actionFound = true;
+          } else if (line === 'Hide') {
+            ruleName = lines[i-1].replace('# Hide - ', '').trim();
+            actionFound = true;
+          }
+        } else {
+          if (line.startsWith('Show #')) {
+            action = 'Show';
+            ruleName = line.replace('Show # ', '').trim();
+            actionFound = true;
+          } else if (line.startsWith('Hide #')) {
+            action = 'Hide';
+            ruleName = line.replace('Hide # ', '').trim();
+            actionFound = true;
+          }
         }
 
         // If we didn't find an action, skip this line
@@ -540,14 +553,22 @@ export class FilterModel implements Filter {
     const rules: RuleModel[] = [];
 
     try {
+      // NeverSink Compatibility Check
+      const isNeverSink = lines.length > 16 && lines[16].includes("AUTHOR:   NeverSink");
+
       // Check if the file has content and contains our expected header format
-      if(lines.length > 0 && lines[1].includes("# Path of Filtering - for Path of Exile 2 Loot Filter")) {
-        name = lines[3].replace('# ', '').trim();
-        description = lines[4].replace('# ', '').trim();
+      if(!isNeverSink) {
+        if(lines.length > 0 && lines[1].includes("# Path of Filtering - for Path of Exile 2 Loot Filter")) {
+          name = lines[3].replace('# ', '').trim();
+          description = lines[4].replace('# ', '').trim();
+        }
+      } else {
+        name = lines[1].replace('#name:', '').trim();
+        description = "This is a NeverSink filter. There might be some issues with the filter.";
       }
 
       // Parse rules
-      const ruleModels = RuleModel.fromString(data);
+      const ruleModels = RuleModel.fromString(data, isNeverSink);
       rules.push(...ruleModels);
     }
     catch (error) {
